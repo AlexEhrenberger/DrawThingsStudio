@@ -1,0 +1,5744 @@
+{
+ "version": 2,
+ "source": "DrawThings Studio – Basis ThePromptEngineer, erweitert",
+ "sections": [
+  {
+   "id": "motiv",
+   "name": "Motiv",
+   "icon": "person.crop.rectangle",
+   "groups": [
+    {
+     "key": "motiv/subjekt",
+     "name": "Subjekt",
+     "icon": "person.fill",
+     "multi": false,
+     "options": [
+      {
+       "id": "mann",
+       "name": "Mann",
+       "text": "The subject is an adult man."
+      },
+      {
+       "id": "frau",
+       "name": "Frau",
+       "text": "The subject is an adult woman."
+      },
+      {
+       "id": "junge",
+       "name": "Junge",
+       "text": "The subject is a young boy."
+      },
+      {
+       "id": "maedchen",
+       "name": "Mädchen",
+       "text": "The subject is a young girl."
+      },
+      {
+       "id": "baby",
+       "name": "Baby",
+       "text": "The subject is a baby."
+      },
+      {
+       "id": "teen-m",
+       "name": "Teenager",
+       "text": "The subject is a teenage boy."
+      },
+      {
+       "id": "teen-w",
+       "name": "Teenagerin",
+       "text": "The subject is a teenage girl."
+      },
+      {
+       "id": "senior",
+       "name": "Senior",
+       "text": "The subject is an elderly man."
+      },
+      {
+       "id": "seniorin",
+       "name": "Seniorin",
+       "text": "The subject is an elderly woman."
+      },
+      {
+       "id": "paar",
+       "name": "Paar",
+       "text": "The subject is a couple standing close together."
+      },
+      {
+       "id": "familie",
+       "name": "Familie",
+       "text": "The subject is a family with parents and children."
+      },
+      {
+       "id": "freunde",
+       "name": "Freunde",
+       "text": "The subject is a group of friends."
+      },
+      {
+       "id": "gruppe",
+       "name": "Gruppe",
+       "text": "The subject is a small group of people."
+      },
+      {
+       "id": "menge",
+       "name": "Menschenmenge",
+       "text": "The subject is a large crowd of people."
+      },
+      {
+       "id": "hund",
+       "name": "Hund",
+       "text": "The subject is a dog."
+      },
+      {
+       "id": "katze",
+       "name": "Katze",
+       "text": "The subject is a cat."
+      },
+      {
+       "id": "pferd",
+       "name": "Pferd",
+       "text": "The subject is a horse."
+      },
+      {
+       "id": "vogel",
+       "name": "Vogel",
+       "text": "The subject is a bird."
+      },
+      {
+       "id": "tier",
+       "name": "Wildtier",
+       "text": "The subject is a wild animal."
+      },
+      {
+       "id": "roboter",
+       "name": "Roboter",
+       "text": "The subject is a humanoid robot."
+      },
+      {
+       "id": "fantasy",
+       "name": "Fantasiewesen",
+       "text": "The subject is a fantasy creature."
+      },
+      {
+       "id": "objekt",
+       "name": "Produkt",
+       "text": "The subject is a single product-like object."
+      },
+      {
+       "id": "fahrzeug",
+       "name": "Fahrzeug",
+       "text": "The subject is a vehicle."
+      },
+      {
+       "id": "essen",
+       "name": "Essen",
+       "text": "The subject is a plated dish of food."
+      },
+      {
+       "id": "gebaeude",
+       "name": "Gebäude",
+       "text": "The subject is a building."
+      },
+      {
+       "id": "pflanze",
+       "name": "Pflanze",
+       "text": "The subject is a plant."
+      }
+     ]
+    },
+    {
+     "key": "motiv/mimik",
+     "name": "Mimik",
+     "icon": "face.smiling",
+     "multi": false,
+     "options": [
+      {
+       "id": "neutral",
+       "name": "Neutral",
+       "text": "The expression is calm and neutral."
+      },
+      {
+       "id": "laecheln",
+       "name": "Lächeln",
+       "text": "The subject smiles softly with closed lips."
+      },
+      {
+       "id": "lachen",
+       "name": "Lachen",
+       "text": "The subject laughs openly with a wide, genuine grin."
+      },
+      {
+       "id": "ernst",
+       "name": "Ernst",
+       "text": "The expression is serious and focused."
+      },
+      {
+       "id": "nachdenklich",
+       "name": "Nachdenklich",
+       "text": "The subject looks thoughtful, gaze slightly lowered."
+      },
+      {
+       "id": "ueberrascht",
+       "name": "Überrascht",
+       "text": "The subject looks surprised, eyebrows raised and mouth slightly open."
+      },
+      {
+       "id": "wuetend",
+       "name": "Wütend",
+       "text": "The subject looks angry, brows furrowed and jaw clenched."
+      },
+      {
+       "id": "traurig",
+       "name": "Traurig",
+       "text": "The subject looks sad, with downcast eyes."
+      },
+      {
+       "id": "verschmitzt",
+       "name": "Verschmitzt",
+       "text": "The subject wears a playful, mischievous smirk."
+      },
+      {
+       "id": "zwinkern",
+       "name": "Zwinkern",
+       "text": "The subject winks at the camera with a cheeky smile."
+      },
+      {
+       "id": "selbstbewusst",
+       "name": "Selbstbewusst",
+       "text": "The subject looks confident, chin slightly raised."
+      },
+      {
+       "id": "entschlossen",
+       "name": "Entschlossen",
+       "text": "The subject looks determined, with a steady, intense gaze."
+      },
+      {
+       "id": "vertraeumt",
+       "name": "Verträumt",
+       "text": "The subject looks dreamy, gazing into the distance."
+      },
+      {
+       "id": "schuechtern",
+       "name": "Schüchtern",
+       "text": "The subject looks shy, with a small, hesitant smile."
+      },
+      {
+       "id": "gelassen",
+       "name": "Gelassen",
+       "text": "The subject looks serene and relaxed."
+      },
+      {
+       "id": "stolz",
+       "name": "Stolz",
+       "text": "The subject looks proud, with a satisfied smile."
+      },
+      {
+       "id": "konzentriert",
+       "name": "Konzentriert",
+       "text": "The subject is deeply concentrated on something."
+      },
+      {
+       "id": "skeptisch",
+       "name": "Skeptisch",
+       "text": "The subject looks skeptical, one eyebrow raised."
+      },
+      {
+       "id": "aengstlich",
+       "name": "Ängstlich",
+       "text": "The subject looks anxious, eyes wide and tense."
+      },
+      {
+       "id": "erschrocken",
+       "name": "Erschrocken",
+       "text": "The subject looks startled and frightened."
+      },
+      {
+       "id": "angeekelt",
+       "name": "Angeekelt",
+       "text": "The subject looks disgusted, nose wrinkled."
+      },
+      {
+       "id": "gelangweilt",
+       "name": "Gelangweilt",
+       "text": "The subject looks bored, with heavy eyelids."
+      },
+      {
+       "id": "verliebt",
+       "name": "Verliebt",
+       "text": "The subject looks lovestruck, with a tender smile."
+      },
+      {
+       "id": "erschoepft",
+       "name": "Erschöpft",
+       "text": "The subject looks exhausted and worn out."
+      },
+      {
+       "id": "weinend",
+       "name": "Weinend",
+       "text": "The subject is crying, tears running down the cheeks."
+      },
+      {
+       "id": "schreiend",
+       "name": "Schreiend",
+       "text": "The subject is screaming, mouth wide open."
+      },
+      {
+       "id": "ekstatisch",
+       "name": "Ekstatisch",
+       "text": "The subject looks ecstatic, bursting with joy."
+      }
+     ]
+    },
+    {
+     "key": "motiv/blick",
+     "name": "Blickrichtung",
+     "icon": "eye",
+     "multi": false,
+     "options": [
+      {
+       "id": "kamera",
+       "name": "In die Kamera",
+       "text": "The subject looks directly into the camera."
+      },
+      {
+       "id": "intensiv",
+       "name": "Intensiver Blick",
+       "text": "The subject fixes the camera with an intense, direct stare."
+      },
+      {
+       "id": "aus-dem-bild",
+       "name": "Aus dem Bild",
+       "text": "The subject looks out of the frame."
+      },
+      {
+       "id": "schulter",
+       "name": "Über die Schulter",
+       "text": "The subject glances back over the shoulder toward the camera."
+      },
+      {
+       "id": "unten",
+       "name": "Nach unten",
+       "text": "The subject's gaze is lowered, looking down."
+      },
+      {
+       "id": "oben",
+       "name": "Nach oben",
+       "text": "The subject looks upward."
+      },
+      {
+       "id": "ferne",
+       "name": "In die Ferne",
+       "text": "The subject gazes into the distance."
+      },
+      {
+       "id": "links",
+       "name": "Nach links",
+       "text": "The subject looks toward the left side of the frame."
+      },
+      {
+       "id": "rechts",
+       "name": "Nach rechts",
+       "text": "The subject looks toward the right side of the frame."
+      },
+      {
+       "id": "seitenblick",
+       "name": "Seitenblick",
+       "text": "The subject gives a sideways glance without turning the head."
+      },
+      {
+       "id": "profil",
+       "name": "Im Profil",
+       "text": "The subject looks straight ahead in profile, away from the camera."
+      },
+      {
+       "id": "hand",
+       "name": "Auf etwas in der Hand",
+       "text": "The subject looks down at something held in the hands."
+      },
+      {
+       "id": "person",
+       "name": "Zu einer anderen Person",
+       "text": "The subject looks at another person in the scene."
+      },
+      {
+       "id": "spiegel",
+       "name": "In einen Spiegel",
+       "text": "The subject looks at the own reflection in a mirror."
+      },
+      {
+       "id": "halb",
+       "name": "Augen halb geschlossen",
+       "text": "The subject's eyes are half-closed and dreamy."
+      },
+      {
+       "id": "geschlossen",
+       "name": "Augen geschlossen",
+       "text": "The subject's eyes are closed."
+      }
+     ],
+     "hint": "Wohin die Person schaut"
+    },
+    {
+     "key": "motiv/gesicht",
+     "name": "Gesicht & Haare",
+     "icon": "mustache",
+     "multi": true,
+     "options": [
+      {
+       "id": "natuerlich",
+       "name": "Natürliche Haut",
+       "text": "The skin looks natural, with visible pores and fine texture."
+      },
+      {
+       "id": "makellos",
+       "name": "Makellos",
+       "text": "The skin is smooth and flawless, like a retouched beauty portrait."
+      },
+      {
+       "id": "sommersprossen",
+       "name": "Sommersprossen",
+       "text": "Light freckles are scattered across the nose and cheeks."
+      },
+      {
+       "id": "dezent",
+       "name": "Dezent geschminkt",
+       "text": "The face has subtle, natural-looking makeup."
+      },
+      {
+       "id": "kraeftig",
+       "name": "Kräftig geschminkt",
+       "text": "The face has bold, dramatic makeup with defined eyes and lips."
+      },
+      {
+       "id": "gealtert",
+       "name": "Gealtert",
+       "text": "The face looks noticeably older, with wrinkles and greying hair."
+      },
+      {
+       "id": "verjuengt",
+       "name": "Verjüngt",
+       "text": "The face looks noticeably younger, with smooth, youthful features."
+      },
+      {
+       "id": "gebraeunt",
+       "name": "Sonnengebräunt",
+       "text": "The skin is sun-tanned."
+      },
+      {
+       "id": "blass",
+       "name": "Blass",
+       "text": "The skin is pale."
+      },
+      {
+       "id": "dreitagebart",
+       "name": "Dreitagebart",
+       "text": "The face has short three-day stubble."
+      },
+      {
+       "id": "vollbart",
+       "name": "Vollbart",
+       "text": "The face has a full, well-groomed beard."
+      },
+      {
+       "id": "schnurrbart",
+       "name": "Schnurrbart",
+       "text": "The face has a neat mustache."
+      },
+      {
+       "id": "rasiert",
+       "name": "Glatt rasiert",
+       "text": "The face is clean-shaven."
+      },
+      {
+       "id": "piercing",
+       "name": "Piercings",
+       "text": "The face has small piercings."
+      },
+      {
+       "id": "narbe",
+       "name": "Narbe",
+       "text": "A faint scar crosses one cheek."
+      },
+      {
+       "id": "kiefer",
+       "name": "Kantiger Kiefer",
+       "text": "The face has a strong, angular jawline."
+      },
+      {
+       "id": "wangen",
+       "name": "Hohe Wangenknochen",
+       "text": "The face has high, pronounced cheekbones."
+      },
+      {
+       "id": "kurz",
+       "name": "Kurze Haare",
+       "text": "The hair is short."
+      },
+      {
+       "id": "lang",
+       "name": "Lange Haare",
+       "text": "The hair is long and flowing."
+      },
+      {
+       "id": "locken",
+       "name": "Locken",
+       "text": "The hair is curly."
+      },
+      {
+       "id": "glatze",
+       "name": "Glatze",
+       "text": "The head is shaved bald."
+      },
+      {
+       "id": "zopf",
+       "name": "Pferdeschwanz",
+       "text": "The hair is tied back in a ponytail."
+      },
+      {
+       "id": "dutt",
+       "name": "Dutt",
+       "text": "The hair is pinned up in a bun."
+      },
+      {
+       "id": "blond",
+       "name": "Blond",
+       "text": "The hair is blond."
+      },
+      {
+       "id": "braun",
+       "name": "Brünett",
+       "text": "The hair is brown."
+      },
+      {
+       "id": "schwarz",
+       "name": "Schwarzhaarig",
+       "text": "The hair is black."
+      },
+      {
+       "id": "rot",
+       "name": "Rothaarig",
+       "text": "The hair is red."
+      },
+      {
+       "id": "grau",
+       "name": "Graue Haare",
+       "text": "The hair is grey."
+      }
+     ]
+    },
+    {
+     "key": "motiv/koerper",
+     "name": "Körper",
+     "icon": "figure.stand",
+     "multi": false,
+     "options": [
+      {
+       "id": "schlank",
+       "name": "Schlank",
+       "text": "The body is slim and lean."
+      },
+      {
+       "id": "athletisch",
+       "name": "Athletisch",
+       "text": "The body is athletic and toned."
+      },
+      {
+       "id": "muskuloes",
+       "name": "Muskulös",
+       "text": "The body is strongly muscular."
+      },
+      {
+       "id": "durchschnittlich",
+       "name": "Durchschnittlich",
+       "text": "The body has an average, everyday build."
+      },
+      {
+       "id": "kraeftig",
+       "name": "Kräftig",
+       "text": "The body is broad and sturdy."
+      },
+      {
+       "id": "mollig",
+       "name": "Mollig",
+       "text": "The body is soft and curvy."
+      },
+      {
+       "id": "gross",
+       "name": "Groß",
+       "text": "The subject is tall."
+      },
+      {
+       "id": "klein",
+       "name": "Klein",
+       "text": "The subject is short."
+      },
+      {
+       "id": "zierlich",
+       "name": "Zierlich",
+       "text": "The subject has a petite, delicate frame."
+      },
+      {
+       "id": "drahtig",
+       "name": "Drahtig",
+       "text": "The body is wiry and sinewy."
+      },
+      {
+       "id": "bodybuilder",
+       "name": "Bodybuilder",
+       "text": "The body has a massive bodybuilder physique."
+      },
+      {
+       "id": "kurvig",
+       "name": "Kurvig",
+       "text": "The body has an hourglass figure."
+      },
+      {
+       "id": "staemmig",
+       "name": "Stämmig",
+       "text": "The body is stocky and compact."
+      },
+      {
+       "id": "schlaksig",
+       "name": "Schlaksig",
+       "text": "The subject is tall and lanky."
+      },
+      {
+       "id": "taenzer",
+       "name": "Tänzerkörper",
+       "text": "The body has a graceful dancer's build."
+      },
+      {
+       "id": "schultern",
+       "name": "Breite Schultern",
+       "text": "The subject has broad shoulders."
+      },
+      {
+       "id": "uebergewichtig",
+       "name": "Übergewichtig",
+       "text": "The body is heavyset."
+      },
+      {
+       "id": "schwanger",
+       "name": "Schwanger",
+       "text": "The subject is visibly pregnant."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pose",
+   "name": "Pose",
+   "icon": "figure.stand",
+   "groups": [
+    {
+     "key": "pose/ganzkoerper",
+     "name": "Ganzkörper",
+     "icon": "figure.stand",
+     "multi": false,
+     "options": [
+      {
+       "id": "aufrecht",
+       "name": "Stehend, aufrecht",
+       "text": "The subject stands upright with shoulders back and weight evenly balanced."
+      },
+      {
+       "id": "locker",
+       "name": "Stehend, locker",
+       "text": "The subject stands relaxed with the weight shifted onto one leg."
+      },
+      {
+       "id": "kontrapost",
+       "name": "Kontrapost",
+       "text": "The subject stands in contrapposto, weight on one leg, hips and shoulders gently angled."
+      },
+      {
+       "id": "power",
+       "name": "Power-Pose",
+       "text": "The subject stands in a confident power pose, feet apart and hands on the hips."
+      },
+      {
+       "id": "business",
+       "name": "Business-Stand",
+       "text": "The subject stands in a polished business stance, body turned slightly and arms relaxed."
+      },
+      {
+       "id": "s-kurve",
+       "name": "S-Kurve (Editorial)",
+       "text": "The subject forms an elegant S-curve through hips and shoulders, a classic editorial pose."
+      },
+      {
+       "id": "laufsteg",
+       "name": "Laufsteg-Schritt",
+       "text": "The subject walks toward the camera in a confident runway stride."
+      },
+      {
+       "id": "gehend",
+       "name": "Gehend",
+       "text": "The subject is walking mid-stride."
+      },
+      {
+       "id": "laufend",
+       "name": "Laufend",
+       "text": "The subject is running in dynamic motion."
+      },
+      {
+       "id": "springend",
+       "name": "Springend",
+       "text": "The subject is captured mid-jump."
+      },
+      {
+       "id": "tanzend",
+       "name": "Tanzend",
+       "text": "The subject is dancing expressively."
+      },
+      {
+       "id": "drehung",
+       "name": "In der Drehung",
+       "text": "The subject is captured mid-spin, clothes and hair swirling."
+      },
+      {
+       "id": "sitzend",
+       "name": "Sitzend",
+       "text": "The subject is sitting comfortably."
+      },
+      {
+       "id": "hocker",
+       "name": "Auf Barhocker",
+       "text": "The subject sits on a tall stool, one foot resting on the rung."
+      },
+      {
+       "id": "kante",
+       "name": "Auf der Kante sitzend",
+       "text": "The subject perches on the edge of a surface."
+      },
+      {
+       "id": "stufen",
+       "name": "Auf Stufen sitzend",
+       "text": "The subject sits on a flight of steps."
+      },
+      {
+       "id": "schneidersitz",
+       "name": "Im Schneidersitz",
+       "text": "The subject sits cross-legged on the floor."
+      },
+      {
+       "id": "boden-knie",
+       "name": "Am Boden, Knie angezogen",
+       "text": "The subject sits on the floor, knees drawn up and arms wrapped around them."
+      },
+      {
+       "id": "rittlings",
+       "name": "Stuhl rittlings",
+       "text": "The subject sits backwards on a chair, arms resting on the backrest."
+      },
+      {
+       "id": "zurueckgelehnt",
+       "name": "Zurückgelehnt",
+       "text": "The subject leans back, relaxed and at ease."
+      },
+      {
+       "id": "wand",
+       "name": "An Wand gelehnt",
+       "text": "The subject leans casually against a wall."
+      },
+      {
+       "id": "gelaender",
+       "name": "An Reling/Geländer gelehnt",
+       "text": "The subject leans on a railing."
+      },
+      {
+       "id": "tuer",
+       "name": "Im Türrahmen",
+       "text": "The subject leans in a doorway, framed by the door."
+      },
+      {
+       "id": "hockend",
+       "name": "Hockend",
+       "text": "The subject crouches low to the ground."
+      },
+      {
+       "id": "fashion-squat",
+       "name": "Fashion-Squat",
+       "text": "The subject is in a stylish low fashion squat, elbows resting on the knees."
+      },
+      {
+       "id": "kniend",
+       "name": "Kniend",
+       "text": "The subject is kneeling on one knee."
+      },
+      {
+       "id": "rueckenlage",
+       "name": "Auf dem Rücken liegend",
+       "text": "The subject lies on the back."
+      },
+      {
+       "id": "seitlich",
+       "name": "Seitlich liegend",
+       "text": "The subject lies on one side, propped up on an elbow."
+      },
+      {
+       "id": "bauch",
+       "name": "Auf dem Bauch, Kinn in den Händen",
+       "text": "The subject lies on the stomach with the chin resting in the hands."
+      },
+      {
+       "id": "dreiviertel",
+       "name": "Körper ¾ gedreht",
+       "text": "The subject's body is turned three-quarters away from the camera."
+      },
+      {
+       "id": "profil",
+       "name": "Im Profil stehend",
+       "text": "The subject stands in full profile to the camera."
+      },
+      {
+       "id": "ruecken",
+       "name": "Rücken zur Kamera",
+       "text": "The subject stands with the back to the camera."
+      },
+      {
+       "id": "schulterblick",
+       "name": "Abgewandt, Blick zurück",
+       "text": "The subject is turned away and looks back over the shoulder."
+      },
+      {
+       "id": "arme-hoch",
+       "name": "Arme hochgerissen",
+       "text": "The subject throws both arms up in triumph."
+      },
+      {
+       "id": "strecken",
+       "name": "Sich streckend",
+       "text": "The subject stretches the whole body, arms reaching overhead."
+      },
+      {
+       "id": "yoga",
+       "name": "Yoga-Pose",
+       "text": "The subject holds a balanced yoga pose."
+      },
+      {
+       "id": "helden",
+       "name": "Heldenpose",
+       "text": "The subject strikes a heroic pose, chest out and gaze toward the horizon."
+      },
+      {
+       "id": "nachdenklich",
+       "name": "Denkerpose",
+       "text": "The subject sits leaning forward in a thoughtful pose, chin on the fist."
+      }
+     ],
+     "hint": "Haltung des ganzen Körpers"
+    },
+    {
+     "key": "pose/oberkoerper",
+     "name": "Oberkörper",
+     "icon": "figure.arms.open",
+     "multi": false,
+     "options": [
+      {
+       "id": "frontal",
+       "name": "Gerade, frontal",
+       "text": "The upper body faces the camera squarely."
+      },
+      {
+       "id": "schraeg",
+       "name": "Schultern schräg",
+       "text": "The shoulders are angled away from the camera for a slimmer silhouette."
+      },
+      {
+       "id": "eingedreht",
+       "name": "Oberkörper eingedreht",
+       "text": "The torso twists toward the camera while the hips stay turned away."
+      },
+      {
+       "id": "vorgebeugt",
+       "name": "Zur Kamera gebeugt",
+       "text": "The subject leans forward toward the camera, engaged and attentive."
+      },
+      {
+       "id": "zurueck",
+       "name": "Nach hinten gelehnt",
+       "text": "The upper body leans back, relaxed."
+      },
+      {
+       "id": "stolz",
+       "name": "Brust raus, stolz",
+       "text": "The chest is lifted and the posture proud and upright."
+      },
+      {
+       "id": "laessig",
+       "name": "Lässig gekrümmt",
+       "text": "The posture is slouched and casual."
+      },
+      {
+       "id": "verschraenkt",
+       "name": "Arme verschränkt",
+       "text": "The arms are crossed over the chest."
+      },
+      {
+       "id": "ausgebreitet",
+       "name": "Arme ausgebreitet",
+       "text": "The arms are stretched wide open."
+      },
+      {
+       "id": "hinter-kopf",
+       "name": "Hände hinter dem Kopf",
+       "text": "Both hands rest behind the head, elbows out."
+      },
+      {
+       "id": "ellbogen",
+       "name": "Auf Ellbogen gestützt",
+       "text": "The subject leans forward, resting on both elbows."
+      },
+      {
+       "id": "umarmt",
+       "name": "Sich selbst umarmend",
+       "text": "The subject wraps the arms around the own body."
+      },
+      {
+       "id": "kopf-geneigt",
+       "name": "Kopf leicht geneigt",
+       "text": "The head is tilted slightly to one side."
+      },
+      {
+       "id": "kinn-hoch",
+       "name": "Kinn leicht angehoben",
+       "text": "The chin is slightly raised."
+      },
+      {
+       "id": "kinn-runter",
+       "name": "Kinn gesenkt, Blick hoch",
+       "text": "The chin is slightly lowered, eyes looking up."
+      },
+      {
+       "id": "schulter-hoch",
+       "name": "Schulter angehoben",
+       "text": "One shoulder is raised playfully toward the chin."
+      },
+      {
+       "id": "jacke-schulter",
+       "name": "Jacke über der Schulter",
+       "text": "A jacket is slung casually over one shoulder."
+      },
+      {
+       "id": "revers",
+       "name": "Hält das Revers",
+       "text": "The subject holds the lapels of the jacket."
+      },
+      {
+       "id": "krawatte",
+       "name": "Richtet die Krawatte",
+       "text": "The subject adjusts the tie."
+      },
+      {
+       "id": "manschette",
+       "name": "Richtet die Manschette",
+       "text": "The subject adjusts a shirt cuff, a classic menswear pose."
+      }
+     ],
+     "hint": "Schultern, Arme, Kopf"
+    },
+    {
+     "key": "pose/haende",
+     "name": "Hände",
+     "icon": "hand.raised",
+     "multi": true,
+     "options": [
+      {
+       "id": "taschen",
+       "name": "Hände in den Taschen",
+       "text": "Both hands are tucked into the pockets."
+      },
+      {
+       "id": "eine-tasche",
+       "name": "Eine Hand in der Tasche",
+       "text": "One hand rests casually in a pocket."
+      },
+      {
+       "id": "huefte",
+       "name": "Hand an der Hüfte",
+       "text": "One hand rests on the hip."
+      },
+      {
+       "id": "haende-huefte",
+       "name": "Beide Hände an den Hüften",
+       "text": "Both hands rest on the hips."
+      },
+      {
+       "id": "locker",
+       "name": "Arme locker an der Seite",
+       "text": "The arms hang relaxed at the sides."
+      },
+      {
+       "id": "hinter-ruecken",
+       "name": "Hände hinter dem Rücken",
+       "text": "The hands are clasped behind the back."
+      },
+      {
+       "id": "gefaltet",
+       "name": "Hände gefaltet",
+       "text": "The hands are clasped together in front of the body."
+      },
+      {
+       "id": "kinn",
+       "name": "Hand am Kinn",
+       "text": "One hand rests thoughtfully at the chin."
+      },
+      {
+       "id": "wange",
+       "name": "Hand an der Wange",
+       "text": "One hand gently touches the cheek."
+      },
+      {
+       "id": "haar",
+       "name": "Hand im Haar",
+       "text": "One hand runs through the hair."
+      },
+      {
+       "id": "nacken",
+       "name": "Hand im Nacken",
+       "text": "One hand rests at the back of the neck."
+      },
+      {
+       "id": "stirn",
+       "name": "Hand an der Stirn",
+       "text": "One hand rests on the forehead."
+      },
+      {
+       "id": "mund",
+       "name": "Hand vor dem Mund",
+       "text": "One hand covers the mouth."
+      },
+      {
+       "id": "herz",
+       "name": "Hand aufs Herz",
+       "text": "One hand rests over the heart."
+      },
+      {
+       "id": "rahmen",
+       "name": "Hände rahmen das Gesicht",
+       "text": "Both hands softly frame the face."
+      },
+      {
+       "id": "winkend",
+       "name": "Winkend",
+       "text": "One hand waves at the camera."
+      },
+      {
+       "id": "zeigend",
+       "name": "Zeigend",
+       "text": "One hand points at something off-frame."
+      },
+      {
+       "id": "auf-kamera",
+       "name": "Zeigt auf die Kamera",
+       "text": "The subject points directly at the camera."
+      },
+      {
+       "id": "daumen",
+       "name": "Daumen hoch",
+       "text": "The subject gives a thumbs-up."
+      },
+      {
+       "id": "peace",
+       "name": "Peace-Zeichen",
+       "text": "The subject flashes a peace sign."
+      },
+      {
+       "id": "ok",
+       "name": "OK-Zeichen",
+       "text": "The subject makes an OK sign with one hand."
+      },
+      {
+       "id": "faust",
+       "name": "Geballte Faust",
+       "text": "One hand is clenched into a fist."
+      },
+      {
+       "id": "tasse",
+       "name": "Tasse haltend",
+       "text": "The subject holds a cup with both hands."
+      },
+      {
+       "id": "smartphone",
+       "name": "Smartphone in der Hand",
+       "text": "The subject holds a smartphone."
+      },
+      {
+       "id": "buch",
+       "name": "Buch haltend",
+       "text": "The subject holds an open book."
+      },
+      {
+       "id": "blume",
+       "name": "Blume haltend",
+       "text": "The subject holds a single flower."
+      },
+      {
+       "id": "uhr",
+       "name": "Blick auf die Uhr",
+       "text": "The subject checks a wristwatch."
+      },
+      {
+       "id": "brille",
+       "name": "Rückt die Brille zurecht",
+       "text": "The subject adjusts the glasses with one finger."
+      },
+      {
+       "id": "sonnenbrille",
+       "name": "Hält Sonnenbrille",
+       "text": "The subject holds a pair of sunglasses in one hand."
+      },
+      {
+       "id": "reissverschluss",
+       "name": "Am Reißverschluss",
+       "text": "One hand pulls at the zipper of the jacket."
+      }
+     ],
+     "hint": "Gesten, was die Hände halten"
+    },
+    {
+     "key": "pose/unterkoerper",
+     "name": "Unterkörper & Beine",
+     "icon": "figure.walk",
+     "multi": false,
+     "options": [
+      {
+       "id": "ein-bein",
+       "name": "Gewicht auf einem Bein",
+       "text": "The weight rests on one leg, the other knee slightly bent."
+      },
+      {
+       "id": "gekreuzt-stehend",
+       "name": "Beine gekreuzt (stehend)",
+       "text": "The legs are crossed at the ankles while standing."
+      },
+      {
+       "id": "breit",
+       "name": "Breitbeinig",
+       "text": "The feet are planted wide apart."
+      },
+      {
+       "id": "schritt",
+       "name": "Schritt nach vorn",
+       "text": "One foot steps forward toward the camera."
+      },
+      {
+       "id": "fuss-wand",
+       "name": "Fuß an der Wand",
+       "text": "One foot is propped against the wall behind."
+      },
+      {
+       "id": "knie-innen",
+       "name": "Knie nach innen",
+       "text": "One knee is bent and turned inward."
+      },
+      {
+       "id": "zehenspitzen",
+       "name": "Auf Zehenspitzen",
+       "text": "The subject stands on tiptoe."
+      },
+      {
+       "id": "fuss-hoch",
+       "name": "Ein Fuß angehoben",
+       "text": "One foot is lifted playfully behind."
+      },
+      {
+       "id": "ausfallschritt",
+       "name": "Ausfallschritt",
+       "text": "The subject is in a deep lunge."
+      },
+      {
+       "id": "uebergeschlagen",
+       "name": "Beine übereinandergeschlagen",
+       "text": "Seated with the legs crossed at the knee."
+      },
+      {
+       "id": "knoechel",
+       "name": "Knöchel gekreuzt (sitzend)",
+       "text": "Seated with the ankles crossed."
+      },
+      {
+       "id": "ausgestreckt",
+       "name": "Beine ausgestreckt",
+       "text": "The legs are stretched out in front."
+      },
+      {
+       "id": "angezogen",
+       "name": "Knie angezogen",
+       "text": "The knees are drawn up to the chest."
+      },
+      {
+       "id": "ein-angezogen",
+       "name": "Ein Bein angezogen",
+       "text": "One leg is drawn up, the other stretched out."
+      },
+      {
+       "id": "baumeln",
+       "name": "Beine baumeln",
+       "text": "The legs dangle freely over an edge."
+      },
+      {
+       "id": "seitlich",
+       "name": "Beine seitlich angewinkelt",
+       "text": "Seated with both legs folded to one side."
+      },
+      {
+       "id": "beide-knie",
+       "name": "Auf beiden Knien",
+       "text": "The subject kneels on both knees."
+      }
+     ],
+     "hint": "Beine, Füße, Gewichtsverteilung"
+    }
+   ]
+  },
+  {
+   "id": "kleidung",
+   "name": "Kleidung",
+   "icon": "hanger",
+   "groups": [
+    {
+     "key": "kleidung/outfit",
+     "name": "Komplettes Outfit",
+     "icon": "hanger",
+     "multi": false,
+     "options": [
+      {
+       "id": "business",
+       "name": "Business-Anzug",
+       "text": "The subject wears a tailored business suit."
+      },
+      {
+       "id": "smoking",
+       "name": "Smoking",
+       "text": "The subject wears a black tuxedo."
+      },
+      {
+       "id": "sommerkleid",
+       "name": "Sommerkleid",
+       "text": "The subject wears a light summer dress."
+      },
+      {
+       "id": "abend",
+       "name": "Abendkleid",
+       "text": "The subject wears an elegant evening gown."
+      },
+      {
+       "id": "streetwear",
+       "name": "Streetwear",
+       "text": "The subject wears modern streetwear: hoodie, cargo pants and sneakers."
+      },
+      {
+       "id": "sportlich",
+       "name": "Sportkleidung",
+       "text": "The subject wears athletic sportswear."
+      },
+      {
+       "id": "outdoor",
+       "name": "Outdoor",
+       "text": "The subject wears functional outdoor gear."
+      },
+      {
+       "id": "vintage",
+       "name": "Vintage",
+       "text": "The subject wears vintage clothing in a retro style."
+      },
+      {
+       "id": "punk",
+       "name": "Punk",
+       "text": "The subject wears punk clothing with studs and safety pins."
+      },
+      {
+       "id": "gothic",
+       "name": "Gothic",
+       "text": "The subject wears dark gothic clothing."
+      },
+      {
+       "id": "boho",
+       "name": "Boho",
+       "text": "The subject wears flowing bohemian clothing."
+      },
+      {
+       "id": "minimal",
+       "name": "Minimalistisch",
+       "text": "The subject wears minimalist clothing in neutral tones."
+      },
+      {
+       "id": "luxus",
+       "name": "Designer-Luxus",
+       "text": "The subject wears luxurious designer fashion."
+      },
+      {
+       "id": "uniform",
+       "name": "Uniform",
+       "text": "The subject wears a uniform."
+      },
+      {
+       "id": "kittel",
+       "name": "Arztkittel",
+       "text": "The subject wears a doctor's white coat."
+      },
+      {
+       "id": "arbeit",
+       "name": "Arbeitskleidung",
+       "text": "The subject wears rugged workwear."
+      },
+      {
+       "id": "kimono",
+       "name": "Kimono",
+       "text": "The subject wears a traditional kimono."
+      },
+      {
+       "id": "tracht",
+       "name": "Tracht",
+       "text": "The subject wears traditional Bavarian costume."
+      },
+      {
+       "id": "bademode",
+       "name": "Bademode",
+       "text": "The subject wears swimwear."
+      },
+      {
+       "id": "hosenanzug",
+       "name": "Hosenanzug",
+       "text": "The subject wears a tailored pantsuit."
+      },
+      {
+       "id": "cocktail",
+       "name": "Cocktailkleid",
+       "text": "The subject wears an elegant knee-length cocktail dress."
+      },
+      {
+       "id": "jumpsuit",
+       "name": "Jumpsuit",
+       "text": "The subject wears a sleek one-piece jumpsuit."
+      },
+      {
+       "id": "trainingsanzug",
+       "name": "Trainingsanzug",
+       "text": "The subject wears a retro tracksuit."
+      },
+      {
+       "id": "pyjama",
+       "name": "Pyjama",
+       "text": "The subject wears comfortable silk pajamas."
+      },
+      {
+       "id": "brautkleid",
+       "name": "Brautkleid",
+       "text": "The subject wears a white wedding gown."
+      },
+      {
+       "id": "lederkombi",
+       "name": "Motorrad-Lederkombi",
+       "text": "The subject wears a black motorcycle leather suit."
+      },
+      {
+       "id": "astronaut",
+       "name": "Raumanzug",
+       "text": "The subject wears a white astronaut spacesuit."
+      },
+      {
+       "id": "ruestung",
+       "name": "Ritterrüstung",
+       "text": "The subject wears a polished suit of medieval armor."
+      }
+     ],
+     "hint": "Ganzer Look auf einmal"
+    },
+    {
+     "key": "kleidung/oberteil",
+     "name": "Oberteil",
+     "icon": "tshirt",
+     "multi": true,
+     "options": [
+      {
+       "id": "tshirt-weiss",
+       "name": "Weißes T-Shirt",
+       "text": "The subject wears a plain white t-shirt."
+      },
+      {
+       "id": "tshirt-schwarz",
+       "name": "Schwarzes T-Shirt",
+       "text": "The subject wears a plain black t-shirt."
+      },
+      {
+       "id": "tanktop",
+       "name": "Tanktop",
+       "text": "The subject wears a tank top."
+      },
+      {
+       "id": "polo",
+       "name": "Poloshirt",
+       "text": "The subject wears a polo shirt."
+      },
+      {
+       "id": "hemd",
+       "name": "Hemd",
+       "text": "The subject wears a crisp button-up shirt."
+      },
+      {
+       "id": "leinenhemd",
+       "name": "Leinenhemd",
+       "text": "The subject wears a loose linen shirt."
+      },
+      {
+       "id": "flanell",
+       "name": "Flanellhemd",
+       "text": "The subject wears a checked flannel shirt."
+      },
+      {
+       "id": "jeanshemd",
+       "name": "Jeanshemd",
+       "text": "The subject wears a denim shirt."
+      },
+      {
+       "id": "bluse",
+       "name": "Seidenbluse",
+       "text": "The subject wears a silk blouse."
+      },
+      {
+       "id": "rueschen",
+       "name": "Rüschenbluse",
+       "text": "The subject wears a romantic ruffled blouse."
+      },
+      {
+       "id": "cropped",
+       "name": "Crop-Top",
+       "text": "The subject wears a cropped top."
+      },
+      {
+       "id": "korsett",
+       "name": "Korsage",
+       "text": "The subject wears a structured corset top."
+      },
+      {
+       "id": "rollkragen",
+       "name": "Rollkragenpullover",
+       "text": "The subject wears a fitted turtleneck sweater."
+      },
+      {
+       "id": "strick",
+       "name": "Strickpullover",
+       "text": "The subject wears a chunky knit sweater."
+      },
+      {
+       "id": "cardigan",
+       "name": "Cardigan",
+       "text": "The subject wears a soft cardigan."
+      },
+      {
+       "id": "sweatshirt",
+       "name": "Sweatshirt",
+       "text": "The subject wears a crewneck sweatshirt."
+      },
+      {
+       "id": "hoodie",
+       "name": "Hoodie",
+       "text": "The subject wears a hoodie."
+      },
+      {
+       "id": "weste",
+       "name": "Anzugweste",
+       "text": "The subject wears a tailored waistcoat."
+      },
+      {
+       "id": "blazer",
+       "name": "Blazer / Sakko",
+       "text": "The subject wears a tailored blazer."
+      },
+      {
+       "id": "lederjacke",
+       "name": "Lederjacke",
+       "text": "The subject wears a worn black leather jacket."
+      },
+      {
+       "id": "jeansjacke",
+       "name": "Jeansjacke",
+       "text": "The subject wears a denim jacket."
+      },
+      {
+       "id": "bomber",
+       "name": "Bomberjacke",
+       "text": "The subject wears a bomber jacket."
+      },
+      {
+       "id": "varsity",
+       "name": "College-Jacke",
+       "text": "The subject wears a varsity jacket."
+      },
+      {
+       "id": "militaer",
+       "name": "Feldjacke",
+       "text": "The subject wears an olive military field jacket."
+      },
+      {
+       "id": "daunen",
+       "name": "Daunenjacke",
+       "text": "The subject wears a puffy down jacket."
+      },
+      {
+       "id": "regenjacke",
+       "name": "Regenjacke",
+       "text": "The subject wears a glossy raincoat."
+      },
+      {
+       "id": "trenchcoat",
+       "name": "Trenchcoat",
+       "text": "The subject wears a beige trench coat."
+      },
+      {
+       "id": "wollmantel",
+       "name": "Wollmantel",
+       "text": "The subject wears a long wool coat."
+      },
+      {
+       "id": "parka",
+       "name": "Parka",
+       "text": "The subject wears a warm parka."
+      },
+      {
+       "id": "pelz",
+       "name": "Kunstpelzmantel",
+       "text": "The subject wears a plush faux fur coat."
+      }
+     ],
+     "hint": "Shirts, Pullover, Jacken – kombinierbar"
+    },
+    {
+     "key": "kleidung/hose",
+     "name": "Hosen & Röcke",
+     "icon": "rectangle.portrait.split.2x1",
+     "multi": false,
+     "options": [
+      {
+       "id": "jeans-blau",
+       "name": "Blue Jeans",
+       "text": "The subject wears classic blue jeans."
+      },
+      {
+       "id": "jeans-schwarz",
+       "name": "Schwarze Jeans",
+       "text": "The subject wears black skinny jeans."
+      },
+      {
+       "id": "chino",
+       "name": "Chinohose",
+       "text": "The subject wears beige chino trousers."
+      },
+      {
+       "id": "anzughose",
+       "name": "Anzughose",
+       "text": "The subject wears tailored suit trousers."
+      },
+      {
+       "id": "weite",
+       "name": "Weite Hose",
+       "text": "The subject wears flowing wide-leg trousers."
+      },
+      {
+       "id": "schlag",
+       "name": "Schlaghose",
+       "text": "The subject wears retro flared trousers."
+      },
+      {
+       "id": "cargo",
+       "name": "Cargohose",
+       "text": "The subject wears loose cargo pants."
+      },
+      {
+       "id": "jogger",
+       "name": "Jogginghose",
+       "text": "The subject wears relaxed jogger sweatpants."
+      },
+      {
+       "id": "leder",
+       "name": "Lederhose",
+       "text": "The subject wears black leather trousers."
+      },
+      {
+       "id": "leggings",
+       "name": "Leggings",
+       "text": "The subject wears fitted leggings."
+      },
+      {
+       "id": "shorts",
+       "name": "Shorts",
+       "text": "The subject wears casual shorts."
+      },
+      {
+       "id": "jeansshorts",
+       "name": "Jeansshorts",
+       "text": "The subject wears denim shorts."
+      },
+      {
+       "id": "latzhose",
+       "name": "Latzhose",
+       "text": "The subject wears denim overalls."
+      },
+      {
+       "id": "lederhosen",
+       "name": "Lederhose (bayrisch)",
+       "text": "The subject wears traditional Bavarian lederhosen."
+      },
+      {
+       "id": "minirock",
+       "name": "Minirock",
+       "text": "The subject wears a short miniskirt."
+      },
+      {
+       "id": "bleistiftrock",
+       "name": "Bleistiftrock",
+       "text": "The subject wears a fitted pencil skirt."
+      },
+      {
+       "id": "faltenrock",
+       "name": "Faltenrock",
+       "text": "The subject wears a pleated skirt."
+      },
+      {
+       "id": "maxirock",
+       "name": "Maxirock",
+       "text": "The subject wears a flowing maxi skirt."
+      },
+      {
+       "id": "lederrock",
+       "name": "Lederrock",
+       "text": "The subject wears a leather skirt."
+      },
+      {
+       "id": "tuell",
+       "name": "Tüllrock",
+       "text": "The subject wears a voluminous tulle skirt."
+      }
+     ]
+    },
+    {
+     "key": "kleidung/schuhe",
+     "name": "Schuhe",
+     "icon": "shoe.2",
+     "multi": false,
+     "options": [
+      {
+       "id": "sneaker-weiss",
+       "name": "Weiße Sneaker",
+       "text": "The subject wears clean white sneakers."
+      },
+      {
+       "id": "sneaker-retro",
+       "name": "Retro-Sneaker",
+       "text": "The subject wears colorful retro sneakers."
+      },
+      {
+       "id": "canvas",
+       "name": "Canvas-Sneaker",
+       "text": "The subject wears classic canvas high-top sneakers."
+      },
+      {
+       "id": "laufschuhe",
+       "name": "Laufschuhe",
+       "text": "The subject wears running shoes."
+      },
+      {
+       "id": "oxford",
+       "name": "Oxford-Schuhe",
+       "text": "The subject wears polished leather Oxford shoes."
+      },
+      {
+       "id": "loafer",
+       "name": "Loafer",
+       "text": "The subject wears leather loafers."
+      },
+      {
+       "id": "chelsea",
+       "name": "Chelsea-Boots",
+       "text": "The subject wears Chelsea boots."
+      },
+      {
+       "id": "stiefel",
+       "name": "Lederstiefel",
+       "text": "The subject wears leather boots."
+      },
+      {
+       "id": "springer",
+       "name": "Springerstiefel",
+       "text": "The subject wears black combat boots."
+      },
+      {
+       "id": "cowboy",
+       "name": "Cowboystiefel",
+       "text": "The subject wears cowboy boots."
+      },
+      {
+       "id": "overknee",
+       "name": "Overknee-Stiefel",
+       "text": "The subject wears over-the-knee boots."
+      },
+      {
+       "id": "wanderschuhe",
+       "name": "Wanderschuhe",
+       "text": "The subject wears rugged hiking boots."
+      },
+      {
+       "id": "gummistiefel",
+       "name": "Gummistiefel",
+       "text": "The subject wears rubber rain boots."
+      },
+      {
+       "id": "pumps",
+       "name": "Pumps / High Heels",
+       "text": "The subject wears classic high-heeled pumps."
+      },
+      {
+       "id": "stilettos",
+       "name": "Stilettos",
+       "text": "The subject wears strappy stiletto heels."
+      },
+      {
+       "id": "plateau",
+       "name": "Plateauschuhe",
+       "text": "The subject wears chunky platform shoes."
+      },
+      {
+       "id": "ballerinas",
+       "name": "Ballerinas",
+       "text": "The subject wears ballet flats."
+      },
+      {
+       "id": "sandalen",
+       "name": "Sandalen",
+       "text": "The subject wears sandals."
+      },
+      {
+       "id": "flipflops",
+       "name": "Flip-Flops",
+       "text": "The subject wears flip-flops."
+      },
+      {
+       "id": "barfuss",
+       "name": "Barfuß",
+       "text": "The subject is barefoot."
+      }
+     ]
+    },
+    {
+     "key": "kleidung/kopf",
+     "name": "Kopfbedeckung",
+     "icon": "crown",
+     "multi": false,
+     "options": [
+      {
+       "id": "cap",
+       "name": "Baseballcap",
+       "text": "The subject wears a baseball cap."
+      },
+      {
+       "id": "cap-rueck",
+       "name": "Cap rückwärts",
+       "text": "The subject wears a baseball cap turned backward."
+      },
+      {
+       "id": "beanie",
+       "name": "Beanie",
+       "text": "The subject wears a knit beanie."
+      },
+      {
+       "id": "fedora",
+       "name": "Fedora",
+       "text": "The subject wears a fedora hat."
+      },
+      {
+       "id": "panama",
+       "name": "Panamahut",
+       "text": "The subject wears a Panama hat."
+      },
+      {
+       "id": "stroh",
+       "name": "Strohhut",
+       "text": "The subject wears a wide straw hat."
+      },
+      {
+       "id": "cowboyhut",
+       "name": "Cowboyhut",
+       "text": "The subject wears a cowboy hat."
+      },
+      {
+       "id": "bucket",
+       "name": "Fischerhut",
+       "text": "The subject wears a bucket hat."
+      },
+      {
+       "id": "beret",
+       "name": "Baskenmütze",
+       "text": "The subject wears a beret."
+      },
+      {
+       "id": "flatcap",
+       "name": "Schiebermütze",
+       "text": "The subject wears a tweed flat cap."
+      },
+      {
+       "id": "zylinder",
+       "name": "Zylinder",
+       "text": "The subject wears a black top hat."
+      },
+      {
+       "id": "stirnband",
+       "name": "Stirnband",
+       "text": "The subject wears a headband."
+      },
+      {
+       "id": "kopftuch",
+       "name": "Kopftuch",
+       "text": "The subject wears a silk headscarf."
+      },
+      {
+       "id": "turban",
+       "name": "Turban",
+       "text": "The subject wears a turban."
+      },
+      {
+       "id": "kapuze",
+       "name": "Kapuze auf",
+       "text": "The subject wears the hood up."
+      },
+      {
+       "id": "helm",
+       "name": "Motorradhelm",
+       "text": "The subject wears a motorcycle helmet."
+      },
+      {
+       "id": "diadem",
+       "name": "Krone / Diadem",
+       "text": "The subject wears a sparkling tiara."
+      },
+      {
+       "id": "blumenkranz",
+       "name": "Blumenkranz",
+       "text": "The subject wears a crown of fresh flowers."
+      }
+     ]
+    },
+    {
+     "key": "kleidung/accessoires",
+     "name": "Accessoires",
+     "icon": "handbag",
+     "multi": true,
+     "options": [
+      {
+       "id": "brille",
+       "name": "Brille",
+       "text": "The subject wears glasses."
+      },
+      {
+       "id": "sonnenbrille",
+       "name": "Sonnenbrille",
+       "text": "The subject wears sunglasses."
+      },
+      {
+       "id": "halskette",
+       "name": "Halskette",
+       "text": "The subject wears a fine gold necklace."
+      },
+      {
+       "id": "perlen",
+       "name": "Perlenkette",
+       "text": "The subject wears a pearl necklace."
+      },
+      {
+       "id": "creolen",
+       "name": "Creolen",
+       "text": "The subject wears hoop earrings."
+      },
+      {
+       "id": "ringe",
+       "name": "Ringe",
+       "text": "The subject wears several rings."
+      },
+      {
+       "id": "armreif",
+       "name": "Armreifen",
+       "text": "The subject wears bangles on the wrist."
+      },
+      {
+       "id": "uhr",
+       "name": "Armbanduhr",
+       "text": "The subject wears an elegant wristwatch."
+      },
+      {
+       "id": "schmuck",
+       "name": "Schmuck",
+       "text": "The subject wears delicate jewelry."
+      },
+      {
+       "id": "schal",
+       "name": "Schal",
+       "text": "The subject wears a scarf."
+      },
+      {
+       "id": "guertel",
+       "name": "Ledergürtel",
+       "text": "The subject wears a leather belt."
+      },
+      {
+       "id": "hosentraeger",
+       "name": "Hosenträger",
+       "text": "The subject wears suspenders."
+      },
+      {
+       "id": "krawatte",
+       "name": "Krawatte",
+       "text": "The subject wears a tie."
+      },
+      {
+       "id": "fliege",
+       "name": "Fliege",
+       "text": "The subject wears a bow tie."
+      },
+      {
+       "id": "einstecktuch",
+       "name": "Einstecktuch",
+       "text": "A pocket square peeks from the breast pocket."
+      },
+      {
+       "id": "handschuhe",
+       "name": "Lederhandschuhe",
+       "text": "The subject wears leather gloves."
+      },
+      {
+       "id": "handtasche",
+       "name": "Handtasche",
+       "text": "The subject carries a designer handbag."
+      },
+      {
+       "id": "clutch",
+       "name": "Clutch",
+       "text": "The subject holds a small evening clutch."
+      },
+      {
+       "id": "rucksack",
+       "name": "Rucksack",
+       "text": "The subject carries a backpack."
+      },
+      {
+       "id": "umhaengetasche",
+       "name": "Umhängetasche",
+       "text": "The subject carries a crossbody bag."
+      },
+      {
+       "id": "aktentasche",
+       "name": "Aktentasche",
+       "text": "The subject carries a leather briefcase."
+      },
+      {
+       "id": "kopfhoerer",
+       "name": "Kopfhörer",
+       "text": "The subject wears over-ear headphones."
+      },
+      {
+       "id": "kamera",
+       "name": "Kamera um den Hals",
+       "text": "A vintage camera hangs around the subject's neck."
+      },
+      {
+       "id": "regenschirm",
+       "name": "Regenschirm",
+       "text": "The subject holds an umbrella."
+      }
+     ],
+     "hint": "Brillen, Schmuck, Taschen …"
+    }
+   ]
+  },
+  {
+   "id": "ort",
+   "name": "Ort",
+   "icon": "map",
+   "groups": [
+    {
+     "key": "ort/innen",
+     "name": "Innen",
+     "icon": "sofa",
+     "multi": false,
+     "options": [
+      {
+       "id": "wohnzimmer",
+       "name": "Wohnzimmer",
+       "text": "The setting is a cozy living room."
+      },
+      {
+       "id": "kueche",
+       "name": "Küche",
+       "text": "The setting is a bright home kitchen."
+      },
+      {
+       "id": "esszimmer",
+       "name": "Esszimmer",
+       "text": "The setting is a dining room with a set table."
+      },
+      {
+       "id": "schlafzimmer",
+       "name": "Schlafzimmer",
+       "text": "The setting is a calm bedroom."
+      },
+      {
+       "id": "bad",
+       "name": "Badezimmer",
+       "text": "The setting is a modern bathroom with tiles and a mirror."
+      },
+      {
+       "id": "toilette",
+       "name": "Toilette",
+       "text": "The setting is a tiled public restroom with mirrors and sinks."
+      },
+      {
+       "id": "ankleide",
+       "name": "Ankleidezimmer",
+       "text": "The setting is a walk-in closet full of clothes."
+      },
+      {
+       "id": "kinderzimmer",
+       "name": "Kinderzimmer",
+       "text": "The setting is a colorful children's room."
+      },
+      {
+       "id": "dachboden",
+       "name": "Dachboden",
+       "text": "The setting is a dusty attic with wooden beams."
+      },
+      {
+       "id": "keller",
+       "name": "Keller",
+       "text": "The setting is a dim basement."
+      },
+      {
+       "id": "treppenhaus",
+       "name": "Treppenhaus",
+       "text": "The setting is a stairwell."
+      },
+      {
+       "id": "flur",
+       "name": "Flur",
+       "text": "The setting is a long hallway."
+      },
+      {
+       "id": "wintergarten",
+       "name": "Wintergarten",
+       "text": "The setting is a sunlit conservatory full of plants."
+      },
+      {
+       "id": "kamin",
+       "name": "Kaminzimmer",
+       "text": "The setting is a room with a crackling fireplace."
+      },
+      {
+       "id": "garage",
+       "name": "Garage",
+       "text": "The setting is a garage."
+      },
+      {
+       "id": "buero",
+       "name": "Büro",
+       "text": "The setting is a modern office."
+      },
+      {
+       "id": "grossraum",
+       "name": "Großraumbüro",
+       "text": "The setting is an open-plan office with rows of desks."
+      },
+      {
+       "id": "chefbuero",
+       "name": "Chefbüro",
+       "text": "The setting is an executive office with a large wooden desk."
+      },
+      {
+       "id": "konferenz",
+       "name": "Konferenzraum",
+       "text": "The setting is a glass-walled conference room."
+      },
+      {
+       "id": "coworking",
+       "name": "Coworking-Space",
+       "text": "The setting is a trendy coworking space."
+      },
+      {
+       "id": "homeoffice",
+       "name": "Homeoffice",
+       "text": "The setting is a small home office desk by a window."
+      },
+      {
+       "id": "empfang",
+       "name": "Empfang / Rezeption",
+       "text": "The setting is a sleek reception area."
+      },
+      {
+       "id": "klassenzimmer",
+       "name": "Klassenzimmer / Schule",
+       "text": "The setting is a school classroom with a blackboard."
+      },
+      {
+       "id": "hoersaal",
+       "name": "Hörsaal",
+       "text": "The setting is a university lecture hall with tiered seating."
+      },
+      {
+       "id": "bibliothek",
+       "name": "Bücherei / Bibliothek",
+       "text": "The setting is an old library with tall bookshelves."
+      },
+      {
+       "id": "buchhandlung",
+       "name": "Buchhandlung",
+       "text": "The setting is a cozy bookshop."
+      },
+      {
+       "id": "labor",
+       "name": "Labor",
+       "text": "The setting is a high-tech laboratory."
+      },
+      {
+       "id": "krankenhaus",
+       "name": "Krankenhausflur",
+       "text": "The setting is a bright hospital corridor."
+      },
+      {
+       "id": "arztpraxis",
+       "name": "Arztpraxis",
+       "text": "The setting is a doctor's examination room."
+      },
+      {
+       "id": "op",
+       "name": "OP-Saal",
+       "text": "The setting is a surgical operating room."
+      },
+      {
+       "id": "gericht",
+       "name": "Gerichtssaal",
+       "text": "The setting is a wood-paneled courtroom."
+      },
+      {
+       "id": "verhoer",
+       "name": "Verhörraum",
+       "text": "The setting is a bare interrogation room."
+      },
+      {
+       "id": "gefaengnis",
+       "name": "Gefängniszelle",
+       "text": "The setting is a prison cell."
+      },
+      {
+       "id": "industrie",
+       "name": "Industriehalle",
+       "text": "The setting is a vast industrial hall with steel beams."
+      },
+      {
+       "id": "fabrik",
+       "name": "Fabrikhalle",
+       "text": "The setting is a factory floor with machinery."
+      },
+      {
+       "id": "lager",
+       "name": "Lagerhalle",
+       "text": "The setting is a warehouse with tall shelving racks."
+      },
+      {
+       "id": "loft",
+       "name": "Industrieloft",
+       "text": "The setting is an airy industrial loft with exposed brick."
+      },
+      {
+       "id": "werkstatt",
+       "name": "Werkstatt",
+       "text": "The setting is a cluttered workshop."
+      },
+      {
+       "id": "autowerkstatt",
+       "name": "Autowerkstatt",
+       "text": "The setting is a car repair garage."
+      },
+      {
+       "id": "schreinerei",
+       "name": "Schreinerei",
+       "text": "The setting is a carpentry workshop with sawdust in the air."
+      },
+      {
+       "id": "serverraum",
+       "name": "Serverraum",
+       "text": "The setting is a server room with blinking racks."
+      },
+      {
+       "id": "leitstand",
+       "name": "Kontrollraum",
+       "text": "The setting is a control room full of screens."
+      },
+      {
+       "id": "grosskueche",
+       "name": "Restaurantküche",
+       "text": "The setting is a busy professional restaurant kitchen."
+      },
+      {
+       "id": "cafe",
+       "name": "Café",
+       "text": "The setting is a cozy café."
+      },
+      {
+       "id": "restaurant",
+       "name": "Restaurant",
+       "text": "The setting is an elegant restaurant."
+      },
+      {
+       "id": "diner",
+       "name": "American Diner",
+       "text": "The setting is a retro American diner."
+      },
+      {
+       "id": "bar",
+       "name": "Bar",
+       "text": "The setting is a dimly lit cocktail bar."
+      },
+      {
+       "id": "club",
+       "name": "Nachtclub",
+       "text": "The setting is a crowded nightclub with colored lights."
+      },
+      {
+       "id": "hotelzimmer",
+       "name": "Hotelzimmer",
+       "text": "The setting is a hotel room."
+      },
+      {
+       "id": "hotel",
+       "name": "Hotellobby",
+       "text": "The setting is a grand hotel lobby."
+      },
+      {
+       "id": "ballsaal",
+       "name": "Ballsaal",
+       "text": "The setting is an opulent ballroom with chandeliers."
+      },
+      {
+       "id": "kino",
+       "name": "Kinosaal",
+       "text": "The setting is a dark cinema auditorium."
+      },
+      {
+       "id": "buehne",
+       "name": "Bühne",
+       "text": "The setting is a theater stage under spotlights."
+      },
+      {
+       "id": "konzert",
+       "name": "Konzerthalle",
+       "text": "The setting is a concert hall."
+      },
+      {
+       "id": "tonstudio",
+       "name": "Tonstudio",
+       "text": "The setting is a recording studio."
+      },
+      {
+       "id": "studio",
+       "name": "Fotostudio",
+       "text": "The setting is a clean photo studio with a seamless backdrop."
+      },
+      {
+       "id": "studio-farbe",
+       "name": "Farbiger Hintergrund",
+       "text": "The setting is a studio with a bold, solid-colored backdrop."
+      },
+      {
+       "id": "atelier",
+       "name": "Künstleratelier",
+       "text": "The setting is a painter's studio with canvases and paint."
+      },
+      {
+       "id": "galerie",
+       "name": "Kunstgalerie",
+       "text": "The setting is a minimalist white art gallery."
+      },
+      {
+       "id": "museum",
+       "name": "Museum",
+       "text": "The setting is a quiet museum hall."
+      },
+      {
+       "id": "kirche",
+       "name": "Kirche",
+       "text": "The setting is the interior of a church."
+      },
+      {
+       "id": "kathedrale",
+       "name": "Kathedrale",
+       "text": "The setting is a vast Gothic cathedral interior."
+      },
+      {
+       "id": "gym",
+       "name": "Fitnessstudio",
+       "text": "The setting is a gym."
+      },
+      {
+       "id": "turnhalle",
+       "name": "Turnhalle",
+       "text": "The setting is a school gymnasium."
+      },
+      {
+       "id": "boxhalle",
+       "name": "Boxhalle",
+       "text": "The setting is a gritty boxing gym with a ring."
+      },
+      {
+       "id": "tanzstudio",
+       "name": "Tanzstudio",
+       "text": "The setting is a dance studio with mirrors and a barre."
+      },
+      {
+       "id": "hallenbad",
+       "name": "Hallenbad",
+       "text": "The setting is an indoor swimming pool."
+      },
+      {
+       "id": "spa",
+       "name": "Spa / Sauna",
+       "text": "The setting is a calm spa with warm wood and soft light."
+      },
+      {
+       "id": "bowling",
+       "name": "Bowlingbahn",
+       "text": "The setting is a retro bowling alley."
+      },
+      {
+       "id": "spielhalle",
+       "name": "Spielhalle",
+       "text": "The setting is a neon-lit arcade full of game machines."
+      },
+      {
+       "id": "supermarkt",
+       "name": "Supermarkt",
+       "text": "The setting is a supermarket aisle."
+      },
+      {
+       "id": "mall",
+       "name": "Einkaufszentrum",
+       "text": "The setting is a shopping mall."
+      },
+      {
+       "id": "boutique",
+       "name": "Boutique",
+       "text": "The setting is an upscale fashion boutique."
+      },
+      {
+       "id": "friseur",
+       "name": "Friseursalon",
+       "text": "The setting is a hair salon."
+      },
+      {
+       "id": "waschsalon",
+       "name": "Waschsalon",
+       "text": "The setting is a laundromat with rows of washing machines."
+      },
+      {
+       "id": "tattoo",
+       "name": "Tattoo-Studio",
+       "text": "The setting is a tattoo studio."
+      },
+      {
+       "id": "baeckerei",
+       "name": "Bäckerei",
+       "text": "The setting is a rustic bakery."
+      },
+      {
+       "id": "blumenladen",
+       "name": "Blumenladen",
+       "text": "The setting is a flower shop full of blooms."
+      },
+      {
+       "id": "gewaechshaus",
+       "name": "Gewächshaus",
+       "text": "The setting is a glass greenhouse full of plants."
+      },
+      {
+       "id": "bahnhof",
+       "name": "Bahnhofshalle",
+       "text": "The setting is a grand railway station hall."
+      },
+      {
+       "id": "ubahn",
+       "name": "U-Bahn-Station",
+       "text": "The setting is a subway station platform."
+      },
+      {
+       "id": "zug",
+       "name": "Zugabteil",
+       "text": "The setting is a train compartment."
+      },
+      {
+       "id": "flughafen",
+       "name": "Flughafen",
+       "text": "The setting is an airport terminal."
+      },
+      {
+       "id": "flugzeug",
+       "name": "Flugzeugkabine",
+       "text": "The setting is an airplane cabin."
+      },
+      {
+       "id": "auto",
+       "name": "Im Auto",
+       "text": "The setting is the interior of a car."
+      },
+      {
+       "id": "aufzug",
+       "name": "Aufzug",
+       "text": "The setting is an elevator."
+      },
+      {
+       "id": "parkhaus",
+       "name": "Parkhaus",
+       "text": "The setting is a concrete parking garage."
+      },
+      {
+       "id": "bunker",
+       "name": "Bunker",
+       "text": "The setting is a concrete bunker."
+      }
+     ]
+    },
+    {
+     "key": "ort/stadt",
+     "name": "Draußen · Stadt",
+     "icon": "building.2",
+     "multi": false,
+     "options": [
+      {
+       "id": "strasse",
+       "name": "Stadtstraße",
+       "text": "The setting is a busy city street."
+      },
+      {
+       "id": "nachtstadt",
+       "name": "Stadt bei Nacht",
+       "text": "The setting is a city street at night, lit by neon signs."
+      },
+      {
+       "id": "gasse",
+       "name": "Gasse",
+       "text": "The setting is a narrow back alley."
+      },
+      {
+       "id": "dach",
+       "name": "Dachterrasse",
+       "text": "The setting is a rooftop overlooking the city skyline."
+      },
+      {
+       "id": "bruecke",
+       "name": "Brücke",
+       "text": "The setting is a bridge over a river."
+      },
+      {
+       "id": "hafen",
+       "name": "Hafen",
+       "text": "The setting is a harbor with boats."
+      },
+      {
+       "id": "markt",
+       "name": "Marktplatz",
+       "text": "The setting is a bustling market square."
+      },
+      {
+       "id": "altstadt",
+       "name": "Altstadt",
+       "text": "The setting is a cobblestone old town."
+      },
+      {
+       "id": "tankstelle",
+       "name": "Tankstelle",
+       "text": "The setting is a lonely gas station at night."
+      },
+      {
+       "id": "skatepark",
+       "name": "Skatepark",
+       "text": "The setting is a skatepark."
+      },
+      {
+       "id": "graffiti",
+       "name": "Graffiti-Wand",
+       "text": "The setting is in front of a colorful graffiti wall."
+      },
+      {
+       "id": "wolkenkratzer",
+       "name": "Hochhausschlucht",
+       "text": "The setting is a canyon of glass skyscrapers."
+      },
+      {
+       "id": "zebrastreifen",
+       "name": "Zebrastreifen",
+       "text": "The setting is a busy crosswalk."
+      },
+      {
+       "id": "bushaltestelle",
+       "name": "Bushaltestelle",
+       "text": "The setting is a city bus stop."
+      },
+      {
+       "id": "telefonzelle",
+       "name": "Telefonzelle",
+       "text": "The setting is next to a red telephone box."
+      },
+      {
+       "id": "hinterhof",
+       "name": "Hinterhof",
+       "text": "The setting is a city backyard."
+      },
+      {
+       "id": "baustelle",
+       "name": "Baustelle",
+       "text": "The setting is a construction site."
+      },
+      {
+       "id": "gleise",
+       "name": "Bahngleise",
+       "text": "The setting is along railway tracks."
+      },
+      {
+       "id": "park",
+       "name": "Stadtpark",
+       "text": "The setting is a green city park."
+      },
+      {
+       "id": "spielplatz",
+       "name": "Spielplatz",
+       "text": "The setting is a playground."
+      },
+      {
+       "id": "terrasse",
+       "name": "Café-Terrasse",
+       "text": "The setting is a sidewalk café terrace."
+      },
+      {
+       "id": "nachtmarkt",
+       "name": "Nachtmarkt",
+       "text": "The setting is a bustling Asian night market."
+      },
+      {
+       "id": "promenade",
+       "name": "Strandpromenade",
+       "text": "The setting is a seaside promenade."
+      },
+      {
+       "id": "vorstadt",
+       "name": "Vorstadt",
+       "text": "The setting is a quiet suburban street."
+      },
+      {
+       "id": "industriegebiet",
+       "name": "Industriegebiet",
+       "text": "The setting is an industrial area."
+      },
+      {
+       "id": "tokio",
+       "name": "Tokio",
+       "text": "The setting is a street in Tokyo."
+      },
+      {
+       "id": "newyork",
+       "name": "New York",
+       "text": "The setting is a street in New York City."
+      },
+      {
+       "id": "timessquare",
+       "name": "Times Square",
+       "text": "The setting is Times Square at night."
+      },
+      {
+       "id": "paris",
+       "name": "Paris",
+       "text": "The setting is a Parisian street."
+      },
+      {
+       "id": "london",
+       "name": "London",
+       "text": "The setting is a London street with red buses."
+      },
+      {
+       "id": "rom",
+       "name": "Rom",
+       "text": "The setting is a sunlit piazza in Rome."
+      },
+      {
+       "id": "berlin",
+       "name": "Berlin",
+       "text": "The setting is a street in Berlin."
+      },
+      {
+       "id": "barcelona",
+       "name": "Barcelona",
+       "text": "The setting is a street in Barcelona."
+      },
+      {
+       "id": "lissabon",
+       "name": "Lissabon",
+       "text": "The setting is a steep street in Lisbon with a tram."
+      },
+      {
+       "id": "venedig",
+       "name": "Venedig",
+       "text": "The setting is a canal in Venice."
+      },
+      {
+       "id": "havanna",
+       "name": "Havanna",
+       "text": "The setting is a colorful street in Havana with vintage cars."
+      },
+      {
+       "id": "marrakesch",
+       "name": "Marrakesch",
+       "text": "The setting is a souk in Marrakesh."
+      },
+      {
+       "id": "hongkong",
+       "name": "Hongkong",
+       "text": "The setting is a dense Hong Kong street with neon signs."
+      },
+      {
+       "id": "seoul",
+       "name": "Seoul",
+       "text": "The setting is a street in Seoul."
+      },
+      {
+       "id": "dubai",
+       "name": "Dubai",
+       "text": "The setting is the futuristic Dubai skyline."
+      },
+      {
+       "id": "lasvegas",
+       "name": "Las Vegas",
+       "text": "The setting is the Las Vegas Strip."
+      }
+     ]
+    },
+    {
+     "key": "ort/natur",
+     "name": "Draußen · Natur",
+     "icon": "leaf",
+     "multi": false,
+     "options": [
+      {
+       "id": "strand",
+       "name": "Strand",
+       "text": "The setting is a sandy beach by the sea."
+      },
+      {
+       "id": "klippen",
+       "name": "Klippen am Meer",
+       "text": "The setting is on sea cliffs above crashing waves."
+      },
+      {
+       "id": "berge",
+       "name": "Berge",
+       "text": "The setting is a mountain landscape."
+      },
+      {
+       "id": "wald",
+       "name": "Wald",
+       "text": "The setting is a dense forest."
+      },
+      {
+       "id": "bambus",
+       "name": "Bambuswald",
+       "text": "The setting is a bamboo forest."
+      },
+      {
+       "id": "dschungel",
+       "name": "Dschungel",
+       "text": "The setting is a lush tropical jungle."
+      },
+      {
+       "id": "wueste",
+       "name": "Wüste",
+       "text": "The setting is a desert with sand dunes."
+      },
+      {
+       "id": "see",
+       "name": "See",
+       "text": "The setting is the shore of a calm lake."
+      },
+      {
+       "id": "wasserfall",
+       "name": "Wasserfall",
+       "text": "The setting is in front of a waterfall."
+      },
+      {
+       "id": "wiese",
+       "name": "Blumenwiese",
+       "text": "The setting is a meadow full of wildflowers."
+      },
+      {
+       "id": "feld",
+       "name": "Weizenfeld",
+       "text": "The setting is a golden wheat field."
+      },
+      {
+       "id": "lavendel",
+       "name": "Lavendelfeld",
+       "text": "The setting is a lavender field."
+      },
+      {
+       "id": "weinberg",
+       "name": "Weinberg",
+       "text": "The setting is a vineyard."
+      },
+      {
+       "id": "schnee",
+       "name": "Schneelandschaft",
+       "text": "The setting is a snowy winter landscape."
+      },
+      {
+       "id": "gletscher",
+       "name": "Gletscher",
+       "text": "The setting is a glacier with blue ice."
+      },
+      {
+       "id": "canyon",
+       "name": "Canyon",
+       "text": "The setting is a red rock canyon."
+      },
+      {
+       "id": "savanne",
+       "name": "Savanne",
+       "text": "The setting is an African savanna."
+      },
+      {
+       "id": "unterwasser",
+       "name": "Unterwasser",
+       "text": "The setting is underwater, surrounded by blue water."
+      },
+      {
+       "id": "japangarten",
+       "name": "Japanischer Garten",
+       "text": "The setting is a Japanese garden."
+      },
+      {
+       "id": "bauernhof",
+       "name": "Bauernhof",
+       "text": "The setting is a rustic farm."
+      },
+      {
+       "id": "palmenstrand",
+       "name": "Palmenstrand",
+       "text": "The setting is a tropical beach with palm trees and turquoise water."
+      },
+      {
+       "id": "duenen",
+       "name": "Dünen am Meer",
+       "text": "The setting is grassy sand dunes by the sea."
+      },
+      {
+       "id": "fluss",
+       "name": "Flussufer",
+       "text": "The setting is the bank of a river."
+      },
+      {
+       "id": "bach",
+       "name": "Gebirgsbach",
+       "text": "The setting is a clear mountain stream."
+      },
+      {
+       "id": "alm",
+       "name": "Almwiese",
+       "text": "The setting is an alpine meadow."
+      },
+      {
+       "id": "fjord",
+       "name": "Fjord",
+       "text": "The setting is a dramatic fjord."
+      },
+      {
+       "id": "herbstwald",
+       "name": "Herbstwald",
+       "text": "The setting is a forest in autumn colors."
+      },
+      {
+       "id": "nebelwald",
+       "name": "Nebelwald",
+       "text": "The setting is a misty forest."
+      },
+      {
+       "id": "kirschbluete",
+       "name": "Kirschblüten",
+       "text": "The setting is under blooming cherry trees."
+      },
+      {
+       "id": "sonnenblumen",
+       "name": "Sonnenblumenfeld",
+       "text": "The setting is a sunflower field."
+      },
+      {
+       "id": "reisterrassen",
+       "name": "Reisterrassen",
+       "text": "The setting is lush green rice terraces."
+      },
+      {
+       "id": "teeplantage",
+       "name": "Teeplantage",
+       "text": "The setting is a tea plantation on rolling hills."
+      },
+      {
+       "id": "steppe",
+       "name": "Steppe",
+       "text": "The setting is a wide grassy steppe."
+      },
+      {
+       "id": "salzwueste",
+       "name": "Salzwüste",
+       "text": "The setting is a vast white salt flat."
+      },
+      {
+       "id": "vulkan",
+       "name": "Vulkanlandschaft",
+       "text": "The setting is a volcanic landscape with black rock."
+      },
+      {
+       "id": "hoehle",
+       "name": "Tropfsteinhöhle",
+       "text": "The setting is a cave with stalactites."
+      },
+      {
+       "id": "eishoehle",
+       "name": "Eishöhle",
+       "text": "The setting is a glowing blue ice cave."
+      },
+      {
+       "id": "moor",
+       "name": "Moor",
+       "text": "The setting is a misty moor."
+      },
+      {
+       "id": "sumpf",
+       "name": "Sumpf",
+       "text": "The setting is a swamp with gnarled trees."
+      },
+      {
+       "id": "mangroven",
+       "name": "Mangroven",
+       "text": "The setting is a mangrove forest."
+      },
+      {
+       "id": "tundra",
+       "name": "Polarlicht-Tundra",
+       "text": "The setting is a snowy tundra under the northern lights."
+      }
+     ]
+    },
+    {
+     "key": "ort/fantasie",
+     "name": "Draußen · Fantasie",
+     "icon": "sparkles",
+     "multi": false,
+     "options": [
+      {
+       "id": "burg",
+       "name": "Burg",
+       "text": "The setting is a medieval castle."
+      },
+      {
+       "id": "ruine",
+       "name": "Ruine",
+       "text": "The setting is ancient overgrown ruins."
+      },
+      {
+       "id": "tempel",
+       "name": "Tempel",
+       "text": "The setting is an ancient temple."
+      },
+      {
+       "id": "western",
+       "name": "Westernstadt",
+       "text": "The setting is a dusty Wild West town."
+      },
+      {
+       "id": "cyberpunk",
+       "name": "Cyberpunk-Stadt",
+       "text": "The setting is a futuristic cyberpunk city."
+      },
+      {
+       "id": "zukunft",
+       "name": "Zukunftsstadt",
+       "text": "The setting is a clean, futuristic city."
+      },
+      {
+       "id": "apokalypse",
+       "name": "Postapokalypse",
+       "text": "The setting is a post-apocalyptic wasteland."
+      },
+      {
+       "id": "raumstation",
+       "name": "Raumstation",
+       "text": "The setting is the interior of a space station."
+      },
+      {
+       "id": "mond",
+       "name": "Mond",
+       "text": "The setting is the surface of the moon."
+      },
+      {
+       "id": "weltall",
+       "name": "Weltall",
+       "text": "The setting is outer space among stars."
+      },
+      {
+       "id": "maerchenwald",
+       "name": "Märchenwald",
+       "text": "The setting is an enchanted fairy-tale forest."
+      },
+      {
+       "id": "schwebende-inseln",
+       "name": "Schwebende Inseln",
+       "text": "The setting is a world of floating islands with waterfalls."
+      },
+      {
+       "id": "elfenstadt",
+       "name": "Elfenstadt",
+       "text": "The setting is an elegant elven city among giant trees."
+      },
+      {
+       "id": "zwergenmine",
+       "name": "Zwergenmine",
+       "text": "The setting is a vast underground dwarven mine."
+      },
+      {
+       "id": "drachenhort",
+       "name": "Drachenhort",
+       "text": "The setting is a dragon's lair piled with gold."
+      },
+      {
+       "id": "zauberschule",
+       "name": "Zauberschule",
+       "text": "The setting is a great hall of a school of magic."
+      },
+      {
+       "id": "atlantis",
+       "name": "Unterwasserstadt",
+       "text": "The setting is a glowing underwater city."
+      },
+      {
+       "id": "steampunk",
+       "name": "Steampunk-Stadt",
+       "text": "The setting is a steampunk city of brass and airships."
+      },
+      {
+       "id": "alienplanet",
+       "name": "Alien-Planet",
+       "text": "The setting is an alien planet with strange plants and two moons."
+      },
+      {
+       "id": "mars",
+       "name": "Mars-Kolonie",
+       "text": "The setting is a colony on Mars."
+      },
+      {
+       "id": "kristallhoehle",
+       "name": "Kristallhöhle",
+       "text": "The setting is a cave of giant glowing crystals."
+      },
+      {
+       "id": "pilzwald",
+       "name": "Pilzwald",
+       "text": "The setting is a forest of giant glowing mushrooms."
+      },
+      {
+       "id": "wolkenschloss",
+       "name": "Wolkenschloss",
+       "text": "The setting is a castle in the clouds."
+      },
+      {
+       "id": "spukhaus",
+       "name": "Spukhaus",
+       "text": "The setting is a haunted Victorian mansion."
+      },
+      {
+       "id": "friedhof",
+       "name": "Nebliger Friedhof",
+       "text": "The setting is a foggy old cemetery."
+      },
+      {
+       "id": "vampirschloss",
+       "name": "Vampirschloss",
+       "text": "The setting is a gothic vampire castle."
+      },
+      {
+       "id": "wikinger",
+       "name": "Wikingerdorf",
+       "text": "The setting is a Viking village by a fjord."
+      },
+      {
+       "id": "antikes-rom",
+       "name": "Antikes Rom",
+       "text": "The setting is ancient Rome."
+      },
+      {
+       "id": "aegypten",
+       "name": "Altes Ägypten",
+       "text": "The setting is ancient Egypt with pyramids."
+      },
+      {
+       "id": "samurai",
+       "name": "Samurai-Dorf",
+       "text": "The setting is a feudal Japanese village."
+      },
+      {
+       "id": "mittelaltermarkt",
+       "name": "Mittelaltermarkt",
+       "text": "The setting is a bustling medieval market."
+      },
+      {
+       "id": "dino",
+       "name": "Urzeit-Dschungel",
+       "text": "The setting is a prehistoric jungle with dinosaurs."
+      },
+      {
+       "id": "digital",
+       "name": "Digitale Welt",
+       "text": "The setting is a glowing digital void of data streams."
+      },
+      {
+       "id": "traum",
+       "name": "Traumlandschaft",
+       "text": "The setting is a surreal dreamscape."
+      },
+      {
+       "id": "suessigkeiten",
+       "name": "Süßigkeitenland",
+       "text": "The setting is a whimsical land made of candy."
+      }
+     ]
+    },
+    {
+     "key": "ort/wetter",
+     "name": "Tageszeit & Wetter",
+     "icon": "cloud.sun",
+     "multi": true,
+     "options": [
+      {
+       "id": "morgengrauen",
+       "name": "Morgendämmerung",
+       "text": "It is dawn, the sky glowing softly."
+      },
+      {
+       "id": "morgennebel",
+       "name": "Morgennebel",
+       "text": "Morning mist hangs over the scene."
+      },
+      {
+       "id": "mittag",
+       "name": "Klarer Mittag",
+       "text": "It is a clear midday with a blue sky."
+      },
+      {
+       "id": "sonnenuntergang",
+       "name": "Sonnenuntergang",
+       "text": "The sun is setting, painting the sky orange and pink."
+      },
+      {
+       "id": "blaue-stunde",
+       "name": "Blaue Stunde",
+       "text": "It is the blue hour after sunset."
+      },
+      {
+       "id": "nacht",
+       "name": "Sternenklare Nacht",
+       "text": "It is a clear night full of stars."
+      },
+      {
+       "id": "bewoelkt",
+       "name": "Bewölkt",
+       "text": "The sky is overcast."
+      },
+      {
+       "id": "regen",
+       "name": "Regen",
+       "text": "It is raining, surfaces are wet and glossy."
+      },
+      {
+       "id": "gewitter",
+       "name": "Gewitter",
+       "text": "A thunderstorm rages with lightning in the sky."
+      },
+      {
+       "id": "nebel",
+       "name": "Dichter Nebel",
+       "text": "Dense fog veils the scene."
+      },
+      {
+       "id": "schneefall",
+       "name": "Schneefall",
+       "text": "Snow is falling."
+      },
+      {
+       "id": "sturm",
+       "name": "Sturm",
+       "text": "A strong wind whips through the scene."
+      },
+      {
+       "id": "hitze",
+       "name": "Flirrende Hitze",
+       "text": "Heat shimmers in the air."
+      },
+      {
+       "id": "fruehling",
+       "name": "Frühling",
+       "text": "It is spring, with fresh blossoms everywhere."
+      },
+      {
+       "id": "sommer",
+       "name": "Sommer",
+       "text": "It is a warm summer day."
+      },
+      {
+       "id": "herbst",
+       "name": "Herbst",
+       "text": "It is autumn, with golden leaves on the ground."
+      },
+      {
+       "id": "winter",
+       "name": "Winter",
+       "text": "It is winter, everything covered in frost."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kamera",
+   "name": "Kamera",
+   "icon": "camera",
+   "groups": [
+    {
+     "key": "kamera/ausschnitt",
+     "name": "Ausschnitt",
+     "icon": "crop",
+     "multi": false,
+     "options": [
+      {
+       "id": "panorama",
+       "name": "Panorama",
+       "text": "Show the scene as a sweeping panoramic shot with an ultra-wide horizontal view."
+      },
+      {
+       "id": "weitwinkel",
+       "name": "Weitwinkel",
+       "text": "Frame it as a wide shot, the subject small within the expansive surroundings."
+      },
+      {
+       "id": "totale",
+       "name": "Totale",
+       "text": "Frame it as a long shot that shows the subject in full within the environment."
+      },
+      {
+       "id": "amerikanische",
+       "name": "Amerikanische Einstellung",
+       "text": "Frame it as a cowboy shot, cropping the subject from mid-thigh up."
+      },
+      {
+       "id": "halbtotale",
+       "name": "Halbtotale",
+       "text": "Frame it as a full shot, showing the subject from head to toe with some space around."
+      },
+      {
+       "id": "halbnah",
+       "name": "Halbnahaufnahme",
+       "text": "Frame it as a medium shot, showing the subject from the waist up."
+      },
+      {
+       "id": "nah",
+       "name": "Nahaufnahme",
+       "text": "Frame it as a close-up of the head and shoulders."
+      },
+      {
+       "id": "detail",
+       "name": "Detailaufnahme",
+       "text": "Frame it as an extreme close-up detail shot of a single feature."
+      },
+      {
+       "id": "makro",
+       "name": "Makro",
+       "text": "Render it as a macro shot with extreme magnification."
+      }
+     ]
+    },
+    {
+     "key": "kamera/winkel",
+     "name": "Winkel",
+     "icon": "angle",
+     "multi": false,
+     "options": [
+      {
+       "id": "augenhoehe",
+       "name": "Augenhöhe",
+       "text": "Shot as an eye-level shot, giving a natural perspective."
+      },
+      {
+       "id": "untersicht",
+       "name": "Untersicht",
+       "text": "Shot as a low-angle shot, looking up at the subject."
+      },
+      {
+       "id": "erhoeht",
+       "name": "Leicht erhöht",
+       "text": "Shot as an elevated shot, looking slightly down."
+      },
+      {
+       "id": "aufsicht",
+       "name": "Aufsicht",
+       "text": "Shot as a high-angle shot, looking down on the subject."
+      },
+      {
+       "id": "vogel",
+       "name": "Vogelperspektive",
+       "text": "Shot from a bird's-eye view, straight down from above."
+      },
+      {
+       "id": "frosch",
+       "name": "Froschperspektive",
+       "text": "Shot from a worm's-eye view, from ground level looking up."
+      },
+      {
+       "id": "huefte",
+       "name": "Hüfthöhe",
+       "text": "Shot from hip height."
+      },
+      {
+       "id": "flatlay",
+       "name": "Flat Lay",
+       "text": "Shot as a top-down flat lay."
+      },
+      {
+       "id": "dutch",
+       "name": "Gekippt",
+       "text": "The camera is tilted into a dramatic Dutch angle."
+      },
+      {
+       "id": "frontal",
+       "name": "Frontal",
+       "text": "The camera faces the subject in a front view."
+      },
+      {
+       "id": "dreiviertel",
+       "name": "Dreiviertel links",
+       "text": "The camera shows the subject in a front-left quarter view."
+      },
+      {
+       "id": "dreiviertel-r",
+       "name": "Dreiviertel rechts",
+       "text": "The camera shows the subject in a front-right quarter view."
+      },
+      {
+       "id": "profil",
+       "name": "Profil links",
+       "text": "The camera shows the subject in a left side view, in profile."
+      },
+      {
+       "id": "profil-r",
+       "name": "Profil rechts",
+       "text": "The camera shows the subject in a right side view, in profile."
+      },
+      {
+       "id": "hinten-l",
+       "name": "Schräg hinten links",
+       "text": "The camera shows the subject in a back-left quarter view."
+      },
+      {
+       "id": "hinten-r",
+       "name": "Schräg hinten rechts",
+       "text": "The camera shows the subject in a back-right quarter view."
+      },
+      {
+       "id": "hinten",
+       "name": "Rückansicht",
+       "text": "The camera shows the subject in a back view."
+      },
+      {
+       "id": "schulter",
+       "name": "Über die Schulter",
+       "text": "Shot over the shoulder of a second person."
+      },
+      {
+       "id": "pov",
+       "name": "Ich-Perspektive",
+       "text": "Shot from a first-person point of view."
+      }
+     ]
+    },
+    {
+     "key": "kamera/objektiv",
+     "name": "Objektiv",
+     "icon": "camera.aperture",
+     "multi": false,
+     "options": [
+      {
+       "id": "fisheye",
+       "name": "Fisheye",
+       "text": "Shot with a fisheye lens with strong barrel distortion."
+      },
+      {
+       "id": "14",
+       "name": "14 mm",
+       "text": "Shot with a 14mm ultra-wide lens with strong perspective."
+      },
+      {
+       "id": "16",
+       "name": "16 mm",
+       "text": "Shot with a 16mm ultra-wide lens."
+      },
+      {
+       "id": "24",
+       "name": "24 mm",
+       "text": "Shot with a 24mm wide-angle lens."
+      },
+      {
+       "id": "28",
+       "name": "28 mm",
+       "text": "Shot with a 28mm lens, a classic street-photography focal length."
+      },
+      {
+       "id": "35",
+       "name": "35 mm",
+       "text": "Shot with a 35mm lens for a documentary feel."
+      },
+      {
+       "id": "50",
+       "name": "50 mm",
+       "text": "Shot with a 50mm lens, giving a natural perspective."
+      },
+      {
+       "id": "85",
+       "name": "85 mm",
+       "text": "Shot with an 85mm portrait lens with flattering compression."
+      },
+      {
+       "id": "105",
+       "name": "105 mm Makro",
+       "text": "Shot with a 105mm macro lens."
+      },
+      {
+       "id": "135",
+       "name": "135 mm",
+       "text": "Shot with a 135mm telephoto lens with strong background compression."
+      },
+      {
+       "id": "200",
+       "name": "200 mm",
+       "text": "Shot with a 200mm telephoto lens from a distance."
+      },
+      {
+       "id": "400",
+       "name": "400 mm",
+       "text": "Shot with a 400mm super-telephoto lens, flattening the scene."
+      },
+      {
+       "id": "tiltshift",
+       "name": "Tilt-Shift",
+       "text": "Shot with a tilt-shift lens, creating a miniature effect."
+      },
+      {
+       "id": "anamorph",
+       "name": "Anamorphotisch",
+       "text": "Shot with an anamorphic lens, with oval bokeh and horizontal lens flares."
+      },
+      {
+       "id": "vintage",
+       "name": "Vintage-Objektiv",
+       "text": "Shot with a vintage lens with soft, swirly bokeh."
+      },
+      {
+       "id": "softfokus",
+       "name": "Weichzeichner",
+       "text": "Shot with a soft-focus lens, giving a dreamy glow."
+      },
+      {
+       "id": "lensbaby",
+       "name": "Lensbaby",
+       "text": "Shot with a Lensbaby, with a sharp sweet spot and blurred edges."
+      },
+      {
+       "id": "zoom",
+       "name": "Zoom 24–70",
+       "text": "Shot with a 24-70mm zoom lens."
+      }
+     ]
+    },
+    {
+     "key": "kamera/blende",
+     "name": "Blende",
+     "icon": "circle.circle",
+     "multi": false,
+     "options": [
+      {
+       "id": "1.2",
+       "name": "f/1.2",
+       "text": "Aperture f/1.2: razor-thin focus and creamy bokeh."
+      },
+      {
+       "id": "1.4",
+       "name": "f/1.4",
+       "text": "Aperture f/1.4: very shallow focus with smooth bokeh."
+      },
+      {
+       "id": "1.8",
+       "name": "f/1.8",
+       "text": "Aperture f/1.8: shallow depth of field with a softly blurred background."
+      },
+      {
+       "id": "2",
+       "name": "f/2",
+       "text": "Aperture f/2: a sharp subject with a creamy background."
+      },
+      {
+       "id": "2.8",
+       "name": "f/2.8",
+       "text": "Aperture f/2.8: a sharp subject against a softly blurred background."
+      },
+      {
+       "id": "4",
+       "name": "f/4",
+       "text": "Aperture f/4: moderate depth of field."
+      },
+      {
+       "id": "5.6",
+       "name": "f/5.6",
+       "text": "Aperture f/5.6: balanced sharpness with gentle background separation."
+      },
+      {
+       "id": "8",
+       "name": "f/8",
+       "text": "Aperture f/8: crisp detail across most of the frame."
+      },
+      {
+       "id": "11",
+       "name": "f/11",
+       "text": "Aperture f/11: deep focus from foreground to background."
+      },
+      {
+       "id": "16",
+       "name": "f/16",
+       "text": "Aperture f/16: everything in sharp focus, with starburst highlights."
+      },
+      {
+       "id": "22",
+       "name": "f/22",
+       "text": "Aperture f/22: maximum depth of field with pronounced sunstars."
+      }
+     ]
+    },
+    {
+     "key": "kamera/verschluss",
+     "name": "Verschluss",
+     "icon": "timer",
+     "multi": false,
+     "options": [
+      {
+       "id": "8000",
+       "name": "1/8000 s",
+       "text": "Shutter speed 1/8000 s, freezing even the fastest motion."
+      },
+      {
+       "id": "1000",
+       "name": "1/1000 s",
+       "text": "Shutter speed 1/1000 s, freezing all motion crisply."
+      },
+      {
+       "id": "250",
+       "name": "1/250 s",
+       "text": "Shutter speed 1/250 s, sharp and motion-free."
+      },
+      {
+       "id": "200",
+       "name": "1/200 s Blitz",
+       "text": "Shutter speed 1/200 s with flash, crisp and punchy."
+      },
+      {
+       "id": "60",
+       "name": "1/60 s",
+       "text": "Shutter speed 1/60 s, with a hint of natural motion blur."
+      },
+      {
+       "id": "30",
+       "name": "1/30 s",
+       "text": "Shutter speed 1/30 s, with soft motion blur in moving elements."
+      },
+      {
+       "id": "15",
+       "name": "1/15 s",
+       "text": "Shutter speed 1/15 s, with visible motion blur in moving elements."
+      },
+      {
+       "id": "4",
+       "name": "1/4 s",
+       "text": "Shutter speed 1/4 s, with strong motion blur."
+      },
+      {
+       "id": "1",
+       "name": "1 s",
+       "text": "Long exposure of 1 second, smoothing movement into soft streaks."
+      },
+      {
+       "id": "4s",
+       "name": "4 s",
+       "text": "Long exposure of 4 seconds, turning moving water into mist."
+      },
+      {
+       "id": "30s",
+       "name": "30 s",
+       "text": "Long exposure of 30 seconds, with glassy water and streaking clouds."
+      },
+      {
+       "id": "bulb",
+       "name": "Langzeit",
+       "text": "Very long exposure, turning moving lights into light trails."
+      }
+     ]
+    },
+    {
+     "key": "kamera/film",
+     "name": "Film",
+     "icon": "film",
+     "multi": false,
+     "options": [
+      {
+       "id": "portra",
+       "name": "Kodak Portra 400",
+       "text": "Rendered like Kodak Portra 400 film, with warm, natural skin tones and soft contrast."
+      },
+      {
+       "id": "ektar",
+       "name": "Kodak Ektar 100",
+       "text": "Rendered like Kodak Ektar 100 film, with vivid colors and fine grain."
+      },
+      {
+       "id": "gold",
+       "name": "Kodak Gold 200",
+       "text": "Rendered like Kodak Gold 200 film, with warm, nostalgic consumer-film colors."
+      },
+      {
+       "id": "velvia",
+       "name": "Fujichrome Velvia 50",
+       "text": "Rendered like Fujichrome Velvia 50 slide film, which gives intensely saturated color and deep contrast."
+      },
+      {
+       "id": "ektachrome",
+       "name": "Kodak Ektachrome",
+       "text": "Rendered like Kodak Ektachrome E100 slide film, with clean, cool colors."
+      },
+      {
+       "id": "pro400h",
+       "name": "Fujifilm Pro 400H",
+       "text": "Rendered like Fujifilm Pro 400H film, with airy pastel tones."
+      },
+      {
+       "id": "superia",
+       "name": "Fujifilm Superia",
+       "text": "Rendered like Fujifilm Superia 400 film, with punchy greens and everyday grain."
+      },
+      {
+       "id": "cinestill",
+       "name": "CineStill 800T",
+       "text": "Rendered like CineStill 800T film, with cool tungsten tones and red halation around lights."
+      },
+      {
+       "id": "vision3",
+       "name": "Kodak Vision3 500T",
+       "text": "Rendered like Kodak Vision3 500T motion-picture film, with a cinematic look."
+      },
+      {
+       "id": "kodachrome",
+       "name": "Kodachrome 64",
+       "text": "Rendered like Kodachrome 64, with rich, nostalgic colors."
+      },
+      {
+       "id": "lomo",
+       "name": "Lomography 800",
+       "text": "Rendered like Lomography 800 film, with saturated colors and heavy grain."
+      },
+      {
+       "id": "agfa",
+       "name": "Agfa Vista",
+       "text": "Rendered like Agfa Vista 200 film, with warm reds and a vintage feel."
+      },
+      {
+       "id": "trix",
+       "name": "Kodak Tri-X 400",
+       "text": "Rendered like Kodak Tri-X 400 black-and-white film, with punchy contrast and gritty grain."
+      },
+      {
+       "id": "hp5",
+       "name": "Ilford HP5",
+       "text": "Rendered like Ilford HP5 black-and-white film, with soft grey tones."
+      },
+      {
+       "id": "delta3200",
+       "name": "Ilford Delta 3200",
+       "text": "Rendered like Ilford Delta 3200 black-and-white film, with coarse, moody grain."
+      },
+      {
+       "id": "acros",
+       "name": "Fuji Acros 100",
+       "text": "Rendered like Fuji Neopan Acros 100 black-and-white film, with fine grain and smooth tones."
+      },
+      {
+       "id": "infrarot",
+       "name": "Infrarotfilm",
+       "text": "Rendered like infrared film, with glowing white foliage and dark skies."
+      },
+      {
+       "id": "polaroid",
+       "name": "Polaroid",
+       "text": "Rendered like an instant Polaroid photo, with faded colors and soft focus."
+      },
+      {
+       "id": "instax",
+       "name": "Instax",
+       "text": "Rendered like a Fujifilm Instax instant photo, with bright, soft colors."
+      }
+     ]
+    },
+    {
+     "key": "kamera/geraet",
+     "name": "Gerät",
+     "icon": "camera",
+     "multi": false,
+     "options": [
+      {
+       "id": "leica",
+       "name": "Leica M6",
+       "text": "Taken with a Leica M6 rangefinder camera."
+      },
+      {
+       "id": "hasselblad",
+       "name": "Hasselblad",
+       "text": "Taken with a Hasselblad medium-format camera, with exceptional detail."
+      },
+      {
+       "id": "pentax67",
+       "name": "Pentax 67",
+       "text": "Taken with a Pentax 67 medium-format film camera."
+      },
+      {
+       "id": "mamiya",
+       "name": "Mamiya RZ67",
+       "text": "Taken with a Mamiya RZ67 medium-format camera."
+      },
+      {
+       "id": "canon",
+       "name": "Canon EOS R5",
+       "text": "Taken with a Canon EOS R5 full-frame camera."
+      },
+      {
+       "id": "sony",
+       "name": "Sony A7 IV",
+       "text": "Taken with a Sony A7 IV full-frame camera."
+      },
+      {
+       "id": "nikon",
+       "name": "Nikon Z9",
+       "text": "Taken with a Nikon Z9 full-frame camera."
+      },
+      {
+       "id": "fuji",
+       "name": "Fujifilm X100V",
+       "text": "Taken with a Fujifilm X100V compact camera."
+      },
+      {
+       "id": "iphone",
+       "name": "iPhone",
+       "text": "Taken with an iPhone smartphone camera."
+      },
+      {
+       "id": "arri",
+       "name": "Arri Alexa",
+       "text": "Captured on an Arri Alexa cinema camera, like a film still."
+      },
+      {
+       "id": "red",
+       "name": "RED",
+       "text": "Captured on a RED cinema camera."
+      },
+      {
+       "id": "gopro",
+       "name": "GoPro",
+       "text": "Taken with a GoPro action camera with a wide, distorted view."
+      },
+      {
+       "id": "drohne",
+       "name": "Drohne",
+       "text": "Captured by a drone from the air."
+      },
+      {
+       "id": "holga",
+       "name": "Holga",
+       "text": "Taken with a Holga toy camera, with vignetting and light leaks."
+      },
+      {
+       "id": "lomo",
+       "name": "Lomo LC-A",
+       "text": "Taken with a Lomo LC-A, with saturated colors and dark corners."
+      },
+      {
+       "id": "einweg",
+       "name": "Einwegkamera",
+       "text": "Taken with a disposable film camera with direct flash."
+      },
+      {
+       "id": "brownie",
+       "name": "Kodak Brownie",
+       "text": "Taken with an early Kodak Brownie box camera."
+      },
+      {
+       "id": "daguerreotypie",
+       "name": "Daguerreotypie",
+       "text": "Made as a 19th-century daguerreotype."
+      },
+      {
+       "id": "ueberwachung",
+       "name": "Überwachungskamera",
+       "text": "Captured by a grainy security camera."
+      },
+      {
+       "id": "webcam",
+       "name": "Webcam",
+       "text": "Captured by a low-resolution webcam."
+      }
+     ]
+    },
+    {
+     "key": "kamera/licht",
+     "name": "Licht",
+     "icon": "lightbulb",
+     "multi": false,
+     "options": [
+      {
+       "id": "tageslicht",
+       "name": "Tageslicht",
+       "text": "Lit by soft natural daylight."
+      },
+      {
+       "id": "bewoelkt",
+       "name": "Bewölkt",
+       "text": "Lit by soft, diffused light from an overcast sky."
+      },
+      {
+       "id": "fenster",
+       "name": "Fensterlicht",
+       "text": "Lit by soft window light from one side."
+      },
+      {
+       "id": "golden",
+       "name": "Goldene Stunde",
+       "text": "Lit by warm golden-hour sunlight."
+      },
+      {
+       "id": "blau",
+       "name": "Blaue Stunde",
+       "text": "Lit by the cool, soft light of the blue hour."
+      },
+      {
+       "id": "mittag",
+       "name": "Mittagssonne",
+       "text": "Lit by hard midday sunlight with crisp shadows."
+      },
+      {
+       "id": "mond",
+       "name": "Mondlicht",
+       "text": "Lit by pale blue moonlight."
+      },
+      {
+       "id": "gegenlicht",
+       "name": "Gegenlicht",
+       "text": "Strong backlight creates a glowing rim around the subject."
+      },
+      {
+       "id": "silhouette",
+       "name": "Silhouette",
+       "text": "The subject is a dark silhouette against a bright background."
+      },
+      {
+       "id": "softbox",
+       "name": "Softbox",
+       "text": "Lit by a large studio softbox for even, flattering light."
+      },
+      {
+       "id": "rembrandt",
+       "name": "Rembrandt",
+       "text": "Rembrandt lighting, with a small triangle of light on the shadow-side cheek."
+      },
+      {
+       "id": "butterfly",
+       "name": "Butterfly",
+       "text": "Butterfly lighting from above, with a small shadow under the nose."
+      },
+      {
+       "id": "split",
+       "name": "Split",
+       "text": "Split lighting, with one half of the face in shadow."
+      },
+      {
+       "id": "clamshell",
+       "name": "Clamshell",
+       "text": "Clamshell beauty lighting from above and below."
+      },
+      {
+       "id": "ringlicht",
+       "name": "Ringlicht",
+       "text": "Lit by a ring light, with circular catchlights in the eyes."
+      },
+      {
+       "id": "lowkey",
+       "name": "Low Key",
+       "text": "Low-key lighting, mostly dark with deep shadows."
+      },
+      {
+       "id": "highkey",
+       "name": "High Key",
+       "text": "High-key lighting, bright and almost shadowless."
+      },
+      {
+       "id": "chiaroscuro",
+       "name": "Chiaroscuro",
+       "text": "Chiaroscuro lighting with strong contrast between light and dark."
+      },
+      {
+       "id": "volumetrisch",
+       "name": "Volumetrisch",
+       "text": "Volumetric light beams cut through the air."
+      },
+      {
+       "id": "blitz",
+       "name": "Direkter Blitz",
+       "text": "Lit by harsh direct on-camera flash."
+      },
+      {
+       "id": "gel",
+       "name": "Farbfolien",
+       "text": "Lit by colored gels in red and blue."
+      },
+      {
+       "id": "neon",
+       "name": "Neon",
+       "text": "Lit by colorful neon signs."
+      },
+      {
+       "id": "laterne",
+       "name": "Straßenlaterne",
+       "text": "Lit by the warm glow of a street lamp."
+      },
+      {
+       "id": "kerze",
+       "name": "Kerzenlicht",
+       "text": "Lit by warm, flickering candlelight."
+      },
+      {
+       "id": "feuer",
+       "name": "Lagerfeuer",
+       "text": "Lit by the orange glow of a campfire."
+      },
+      {
+       "id": "unterlicht",
+       "name": "Unterlicht",
+       "text": "Lit eerily from below."
+      },
+      {
+       "id": "bildschirm",
+       "name": "Bildschirmlicht",
+       "text": "Lit by the cold glow of a screen."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bildkomposition",
+   "name": "Bildkomposition",
+   "icon": "square.on.square.dashed",
+   "groups": [
+    {
+     "key": "bildkomposition/regel",
+     "name": "Regel",
+     "icon": "squareshape.split.3x3",
+     "multi": false,
+     "options": [
+      {
+       "id": "drittel",
+       "name": "Drittelregel",
+       "text": "The composition follows the rule of thirds."
+      },
+      {
+       "id": "goldener",
+       "name": "Goldener Schnitt",
+       "text": "The composition follows the golden ratio."
+      },
+      {
+       "id": "spirale",
+       "name": "Goldene Spirale",
+       "text": "The composition follows a golden spiral."
+      },
+      {
+       "id": "symmetrie",
+       "name": "Symmetrie",
+       "text": "The composition is centered and symmetrical."
+      },
+      {
+       "id": "zentral",
+       "name": "Zentralperspektive",
+       "text": "A one-point perspective draws the eye to a central vanishing point."
+      },
+      {
+       "id": "linien",
+       "name": "Führungslinien",
+       "text": "Leading lines guide the eye toward the subject."
+      },
+      {
+       "id": "skurve",
+       "name": "S-Kurve",
+       "text": "An S-curve leads the eye through the frame."
+      },
+      {
+       "id": "rahmen",
+       "name": "Rahmen im Rahmen",
+       "text": "The subject is framed by elements within the scene."
+      },
+      {
+       "id": "diagonale",
+       "name": "Diagonale",
+       "text": "A strong diagonal gives the composition energy."
+      },
+      {
+       "id": "dreieck",
+       "name": "Dreieck",
+       "text": "The main elements form a stable triangle."
+      },
+      {
+       "id": "muster",
+       "name": "Muster",
+       "text": "Repeating patterns structure the frame."
+      },
+      {
+       "id": "musterbruch",
+       "name": "Musterbruch",
+       "text": "A single element breaks an otherwise repeating pattern."
+      },
+      {
+       "id": "ungerade",
+       "name": "Regel der Ungeraden",
+       "text": "An odd number of elements creates a natural balance."
+      },
+      {
+       "id": "fuellen",
+       "name": "Bild füllen",
+       "text": "The subject fills the entire frame."
+      },
+      {
+       "id": "horizont-tief",
+       "name": "Horizont tief",
+       "text": "The horizon sits low, leaving lots of sky."
+      },
+      {
+       "id": "horizont-hoch",
+       "name": "Horizont hoch",
+       "text": "The horizon sits high, emphasizing the foreground."
+      },
+      {
+       "id": "kontrast",
+       "name": "Größenkontrast",
+       "text": "A strong contrast in scale between elements."
+      },
+      {
+       "id": "figur",
+       "name": "Figur und Grund",
+       "text": "The subject stands out clearly against a contrasting background."
+      }
+     ]
+    },
+    {
+     "key": "bildkomposition/leerraum",
+     "name": "Leerraum",
+     "icon": "rectangle.dashed",
+     "multi": false,
+     "options": [
+      {
+       "id": "viel",
+       "name": "Viel Leerraum",
+       "text": "Generous negative space surrounds the subject."
+      },
+      {
+       "id": "minimal",
+       "name": "Minimalistisch",
+       "text": "The frame is minimalist, with an uncluttered background."
+      },
+      {
+       "id": "text",
+       "name": "Platz für Text",
+       "text": "Clean empty space is left for text or a headline."
+      },
+      {
+       "id": "links",
+       "name": "Raum links",
+       "text": "Open space is left on the left side of the frame."
+      },
+      {
+       "id": "rechts",
+       "name": "Raum rechts",
+       "text": "Open space is left on the right side of the frame."
+      },
+      {
+       "id": "oben",
+       "name": "Raum oben",
+       "text": "Open space is left above the subject."
+      },
+      {
+       "id": "unten",
+       "name": "Raum unten",
+       "text": "Open space is left below the subject."
+      },
+      {
+       "id": "blickraum",
+       "name": "Blickraum",
+       "text": "Lead room is left in the direction the subject is looking."
+      },
+      {
+       "id": "kopfraum",
+       "name": "Kopfraum",
+       "text": "Comfortable headroom above the head."
+      },
+      {
+       "id": "isoliert",
+       "name": "Freigestellt",
+       "text": "The subject is isolated on a plain white background."
+      },
+      {
+       "id": "luftig",
+       "name": "Luftig",
+       "text": "The composition feels airy and open."
+      },
+      {
+       "id": "eng",
+       "name": "Eng",
+       "text": "The subject fills the frame tightly, with almost no empty space."
+      }
+     ]
+    },
+    {
+     "key": "bildkomposition/position",
+     "name": "Position",
+     "icon": "viewfinder",
+     "multi": false,
+     "options": [
+      {
+       "id": "mitte",
+       "name": "Mitte",
+       "text": "The subject is placed in the center of the frame."
+      },
+      {
+       "id": "links",
+       "name": "Linkes Drittel",
+       "text": "The subject is placed on the left third of the frame."
+      },
+      {
+       "id": "rechts",
+       "name": "Rechtes Drittel",
+       "text": "The subject is placed on the right third of the frame."
+      },
+      {
+       "id": "unten",
+       "name": "Unteres Drittel",
+       "text": "The subject sits in the lower third of the frame."
+      },
+      {
+       "id": "oben",
+       "name": "Oberes Drittel",
+       "text": "The subject sits in the upper third of the frame."
+      },
+      {
+       "id": "ol",
+       "name": "Oben links",
+       "text": "The subject is placed in the upper-left area of the frame."
+      },
+      {
+       "id": "or",
+       "name": "Oben rechts",
+       "text": "The subject is placed in the upper-right area of the frame."
+      },
+      {
+       "id": "ul",
+       "name": "Unten links",
+       "text": "The subject is placed in the lower-left area of the frame."
+      },
+      {
+       "id": "ur",
+       "name": "Unten rechts",
+       "text": "The subject is placed in the lower-right area of the frame."
+      },
+      {
+       "id": "vorne",
+       "name": "Vordergrund",
+       "text": "The subject is prominent in the foreground."
+      },
+      {
+       "id": "hinten",
+       "name": "Hintergrund",
+       "text": "The subject appears small in the background."
+      },
+      {
+       "id": "rand",
+       "name": "Am Bildrand",
+       "text": "The subject is partly cut off at the edge of the frame."
+      },
+      {
+       "id": "klein",
+       "name": "Klein im Bild",
+       "text": "The subject is tiny within a vast scene."
+      },
+      {
+       "id": "gross",
+       "name": "Groß im Bild",
+       "text": "The subject dominates the frame."
+      }
+     ]
+    },
+    {
+     "key": "bildkomposition/tiefe",
+     "name": "Tiefe",
+     "icon": "square.3.layers.3d",
+     "multi": false,
+     "options": [
+      {
+       "id": "flach",
+       "name": "Geringe Tiefe",
+       "text": "Shallow depth of field isolates the subject from a blurred background."
+      },
+      {
+       "id": "tief",
+       "name": "Große Tiefe",
+       "text": "Deep depth of field keeps the whole scene in focus."
+      },
+      {
+       "id": "vordergrund",
+       "name": "Unscharfer Vordergrund",
+       "text": "Out-of-focus foreground elements add depth."
+      },
+      {
+       "id": "ebenen",
+       "name": "Ebenen",
+       "text": "The scene is layered into distinct foreground, middle ground and background."
+      },
+      {
+       "id": "dunst",
+       "name": "Luftperspektive",
+       "text": "Atmospheric haze adds depth to the distance."
+      },
+      {
+       "id": "ueberlappung",
+       "name": "Überlappung",
+       "text": "Overlapping elements create a sense of depth."
+      },
+      {
+       "id": "tunnel",
+       "name": "Tunnelblick",
+       "text": "A tunnel-like perspective pulls the eye into the distance."
+      },
+      {
+       "id": "silhouetten",
+       "name": "Silhouetten-Ebenen",
+       "text": "Layers of silhouettes fade into the distance."
+      },
+      {
+       "id": "spiegelung",
+       "name": "Spiegelung",
+       "text": "A reflection adds a second layer to the image."
+      },
+      {
+       "id": "glas",
+       "name": "Durch Glas",
+       "text": "Shot through a window, with subtle reflections on the glass."
+      },
+      {
+       "id": "rahmen",
+       "name": "Durch Vordergrund",
+       "text": "Shot through foreground foliage that frames the subject."
+      },
+      {
+       "id": "grafisch",
+       "name": "Grafisch flach",
+       "text": "The image looks flat and graphic, with minimal depth."
+      }
+     ]
+    },
+    {
+     "key": "bildkomposition/verschluss",
+     "name": "Bewegung",
+     "icon": "wind",
+     "multi": false,
+     "options": [
+      {
+       "id": "eingefroren",
+       "name": "Eingefroren",
+       "text": "Motion is frozen in a crisp, decisive moment."
+      },
+      {
+       "id": "spritzer",
+       "name": "Spritzer eingefroren",
+       "text": "Splashing water is frozen in mid-air."
+      },
+      {
+       "id": "unschaerfe",
+       "name": "Bewegungsunschärfe",
+       "text": "Moving elements show natural motion blur."
+      },
+      {
+       "id": "mitzieher",
+       "name": "Mitzieher",
+       "text": "A panning shot keeps the subject sharp against a streaked background."
+      },
+      {
+       "id": "wehend",
+       "name": "Wehender Stoff",
+       "text": "Hair and fabric flow dynamically in the wind."
+      },
+      {
+       "id": "lichtspuren",
+       "name": "Lichtspuren",
+       "text": "Moving lights draw long, glowing light trails."
+      },
+      {
+       "id": "wasser",
+       "name": "Seidiges Wasser",
+       "text": "Long exposure turns moving water silky smooth."
+      },
+      {
+       "id": "wolken",
+       "name": "Ziehende Wolken",
+       "text": "Long exposure streaks the clouds across the sky."
+      },
+      {
+       "id": "sterne",
+       "name": "Sternspuren",
+       "text": "Star trails circle across the night sky."
+      },
+      {
+       "id": "geister",
+       "name": "Geisterbild",
+       "text": "Ghostly, semi-transparent figures from a long exposure."
+      },
+      {
+       "id": "icm",
+       "name": "Kameraschwenk",
+       "text": "Intentional camera movement creates painterly streaks."
+      },
+      {
+       "id": "zoom",
+       "name": "Zoom-Effekt",
+       "text": "A zoom-burst effect radiates streaks from the center."
+      },
+      {
+       "id": "mehrfach",
+       "name": "Mehrfachbelichtung",
+       "text": "A stroboscopic multiple exposure shows the movement in stages."
+      }
+     ]
+    },
+    {
+     "key": "bildkomposition/farbe-look",
+     "name": "Farbe & Look",
+     "icon": "paintpalette",
+     "multi": false,
+     "options": [
+      {
+       "id": "natuerlich",
+       "name": "Natürlich",
+       "text": "Colors are natural and true to life."
+      },
+      {
+       "id": "warm",
+       "name": "Warm",
+       "text": "The color grade is warm, with golden tones."
+      },
+      {
+       "id": "kuehl",
+       "name": "Kühl",
+       "text": "The color grade is cool, with blue tones."
+      },
+      {
+       "id": "teal",
+       "name": "Teal & Orange",
+       "text": "A cinematic teal-and-orange color grade."
+      },
+      {
+       "id": "pastell",
+       "name": "Pastell",
+       "text": "Soft pastel colors with gentle contrast."
+      },
+      {
+       "id": "gesaettigt",
+       "name": "Kräftig",
+       "text": "Bold, highly saturated colors."
+      },
+      {
+       "id": "entsaettigt",
+       "name": "Entsättigt",
+       "text": "Muted, desaturated colors."
+      },
+      {
+       "id": "erdtoene",
+       "name": "Erdtöne",
+       "text": "An earthy palette of browns, ochres and olive greens."
+      },
+      {
+       "id": "hell",
+       "name": "Hell & luftig",
+       "text": "A bright, airy look with lifted shadows."
+      },
+      {
+       "id": "dunkel",
+       "name": "Dunkel & moody",
+       "text": "A dark, moody look with deep shadows."
+      },
+      {
+       "id": "nordisch",
+       "name": "Nordisch",
+       "text": "A clean, cool Nordic look with soft whites."
+      },
+      {
+       "id": "neon",
+       "name": "Neon",
+       "text": "Vibrant neon magenta and cyan tones."
+      },
+      {
+       "id": "komplementaer",
+       "name": "Komplementär",
+       "text": "A strong complementary color contrast."
+      },
+      {
+       "id": "verblasst",
+       "name": "Verblasst",
+       "text": "Faded vintage colors with a slight color cast."
+      },
+      {
+       "id": "crossentw",
+       "name": "Crossentwicklung",
+       "text": "A cross-processed look with shifted colors and high contrast."
+      },
+      {
+       "id": "bleach",
+       "name": "Bleach Bypass",
+       "text": "A bleach-bypass look with low saturation and harsh contrast."
+      },
+      {
+       "id": "technicolor",
+       "name": "Technicolor",
+       "text": "A lush vintage Technicolor look."
+      },
+      {
+       "id": "splittoning",
+       "name": "Split-Toning",
+       "text": "Split toning with warm highlights and cool shadows."
+      },
+      {
+       "id": "duotone",
+       "name": "Duotone",
+       "text": "A graphic duotone look in two colors."
+      },
+      {
+       "id": "sepia",
+       "name": "Sepia",
+       "text": "A warm sepia tone."
+      },
+      {
+       "id": "sw",
+       "name": "Schwarzweiß",
+       "text": "Black and white, with rich tonal range."
+      },
+      {
+       "id": "sw-kontrast",
+       "name": "S/W kontrastreich",
+       "text": "High-contrast black and white with deep blacks."
+      },
+      {
+       "id": "monochrom",
+       "name": "Monochrom",
+       "text": "A monochrome palette built on a single hue."
+      },
+      {
+       "id": "infrarot",
+       "name": "Infrarot",
+       "text": "A false-color infrared look."
+      }
+     ]
+    },
+    {
+     "key": "bildkomposition/stimmung",
+     "name": "Stimmung",
+     "icon": "theatermasks",
+     "multi": false,
+     "options": [
+      {
+       "id": "heiter",
+       "name": "Heiter",
+       "text": "The mood is cheerful and light."
+      },
+      {
+       "id": "ruhig",
+       "name": "Ruhig",
+       "text": "The mood is calm and peaceful."
+      },
+      {
+       "id": "romantisch",
+       "name": "Romantisch",
+       "text": "The mood is romantic and tender."
+      },
+      {
+       "id": "vertraeumt",
+       "name": "Verträumt",
+       "text": "The mood is dreamy and soft."
+      },
+      {
+       "id": "nostalgisch",
+       "name": "Nostalgisch",
+       "text": "The mood is nostalgic and warm."
+      },
+      {
+       "id": "gemuetlich",
+       "name": "Gemütlich",
+       "text": "The mood is cozy and inviting."
+      },
+      {
+       "id": "idyllisch",
+       "name": "Idyllisch",
+       "text": "The mood is idyllic."
+      },
+      {
+       "id": "hoffnungsvoll",
+       "name": "Hoffnungsvoll",
+       "text": "The mood is hopeful and uplifting."
+      },
+      {
+       "id": "verspielt",
+       "name": "Verspielt",
+       "text": "The mood is playful."
+      },
+      {
+       "id": "energisch",
+       "name": "Energiegeladen",
+       "text": "The mood is energetic and vibrant."
+      },
+      {
+       "id": "feierlich",
+       "name": "Feierlich",
+       "text": "The mood is festive and celebratory."
+      },
+      {
+       "id": "luxurioes",
+       "name": "Luxuriös",
+       "text": "The mood is luxurious and exclusive."
+      },
+      {
+       "id": "episch",
+       "name": "Episch",
+       "text": "The mood is epic and grand."
+      },
+      {
+       "id": "dramatisch",
+       "name": "Dramatisch",
+       "text": "The mood is dramatic and intense."
+      },
+      {
+       "id": "spannend",
+       "name": "Spannend",
+       "text": "The mood is suspenseful."
+      },
+      {
+       "id": "melancholisch",
+       "name": "Melancholisch",
+       "text": "The mood is melancholic and quiet."
+      },
+      {
+       "id": "einsam",
+       "name": "Einsam",
+       "text": "The mood is lonely and isolated."
+      },
+      {
+       "id": "geheimnisvoll",
+       "name": "Geheimnisvoll",
+       "text": "The mood is mysterious."
+      },
+      {
+       "id": "mystisch",
+       "name": "Mystisch",
+       "text": "The mood is mystical and otherworldly."
+      },
+      {
+       "id": "maerchenhaft",
+       "name": "Märchenhaft",
+       "text": "The mood is enchanting, like a fairy tale."
+      },
+      {
+       "id": "surreal",
+       "name": "Surreal",
+       "text": "The mood is surreal and dreamlike."
+      },
+      {
+       "id": "futuristisch",
+       "name": "Futuristisch",
+       "text": "The mood is sleek and futuristic."
+      },
+      {
+       "id": "rau",
+       "name": "Rau",
+       "text": "The mood is raw and gritty."
+      },
+      {
+       "id": "duester",
+       "name": "Düster",
+       "text": "The mood is dark and brooding."
+      },
+      {
+       "id": "unheimlich",
+       "name": "Unheimlich",
+       "text": "The mood is eerie and unsettling."
+      },
+      {
+       "id": "bedrohlich",
+       "name": "Bedrohlich",
+       "text": "The mood is threatening and ominous."
+      }
+     ]
+    },
+    {
+     "key": "bildkomposition/effekte",
+     "name": "Effekte",
+     "icon": "sparkles",
+     "multi": true,
+     "options": [
+      {
+       "id": "flare",
+       "name": "Lens Flare",
+       "text": "A subtle lens flare from the light source."
+      },
+      {
+       "id": "sonnenstern",
+       "name": "Sonnenstern",
+       "text": "The sun appears as a sharp starburst."
+      },
+      {
+       "id": "korn",
+       "name": "Filmkorn",
+       "text": "Fine analog film grain."
+      },
+      {
+       "id": "vignette",
+       "name": "Vignette",
+       "text": "A soft vignette darkens the edges."
+      },
+      {
+       "id": "lightleak",
+       "name": "Light Leaks",
+       "text": "Warm light leaks along the edges of the frame."
+      },
+      {
+       "id": "halation",
+       "name": "Halation",
+       "text": "A soft red halation glows around bright highlights."
+      },
+      {
+       "id": "strahlen",
+       "name": "Lichtstrahlen",
+       "text": "Visible rays of light cut through the air."
+      },
+      {
+       "id": "nebel",
+       "name": "Nebel",
+       "text": "Soft fog drifts through the scene."
+      },
+      {
+       "id": "rauch",
+       "name": "Rauch",
+       "text": "Wisps of smoke curl through the air."
+      },
+      {
+       "id": "staub",
+       "name": "Staub in der Luft",
+       "text": "Fine dust particles float in the light."
+      },
+      {
+       "id": "bokeh",
+       "name": "Bokeh-Lichter",
+       "text": "Round bokeh highlights sparkle in the background."
+      },
+      {
+       "id": "prisma",
+       "name": "Prisma",
+       "text": "Rainbow prism reflections streak across the frame."
+      },
+      {
+       "id": "aberration",
+       "name": "Chromatische Aberration",
+       "text": "Slight chromatic aberration along high-contrast edges."
+      },
+      {
+       "id": "glitch",
+       "name": "Glitch",
+       "text": "Digital glitch artifacts distort parts of the image."
+      },
+      {
+       "id": "doppel",
+       "name": "Doppelbelichtung",
+       "text": "A double exposure blends the subject with a second image."
+      },
+      {
+       "id": "regen",
+       "name": "Regentropfen",
+       "text": "Raindrops glisten in the scene."
+      },
+      {
+       "id": "linse",
+       "name": "Tropfen auf Linse",
+       "text": "Water droplets on the lens soften parts of the image."
+      },
+      {
+       "id": "schnee",
+       "name": "Schneefall",
+       "text": "Snowflakes drift through the air."
+      },
+      {
+       "id": "funken",
+       "name": "Funken",
+       "text": "Glowing sparks fly through the air."
+      },
+      {
+       "id": "gluehwuermchen",
+       "name": "Glühwürmchen",
+       "text": "Tiny fireflies glow in the scene."
+      },
+      {
+       "id": "blueten",
+       "name": "Blütenblätter",
+       "text": "Flower petals drift through the air."
+      },
+      {
+       "id": "konfetti",
+       "name": "Konfetti",
+       "text": "Colorful confetti falls through the frame."
+      },
+      {
+       "id": "seifenblasen",
+       "name": "Seifenblasen",
+       "text": "Iridescent soap bubbles float in the air."
+      },
+      {
+       "id": "spiegelung",
+       "name": "Pfützen-Spiegelung",
+       "text": "The scene is mirrored in a puddle."
+      }
+     ]
+    },
+    {
+     "key": "bildkomposition/stil",
+     "name": "Stil",
+     "icon": "paintbrush",
+     "multi": false,
+     "options": [
+      {
+       "id": "foto",
+       "name": "Fotorealistisch",
+       "text": "A photorealistic image."
+      },
+      {
+       "id": "kino",
+       "name": "Kinoszene",
+       "text": "A cinematic film still."
+      },
+      {
+       "id": "editorial",
+       "name": "Editorial",
+       "text": "A high-end fashion editorial photograph."
+      },
+      {
+       "id": "portraet",
+       "name": "Porträtfotografie",
+       "text": "A professional portrait photograph."
+      },
+      {
+       "id": "doku",
+       "name": "Dokumentarisch",
+       "text": "An authentic documentary photograph."
+      },
+      {
+       "id": "street",
+       "name": "Streetfotografie",
+       "text": "A candid street photograph."
+      },
+      {
+       "id": "produkt",
+       "name": "Produktfotografie",
+       "text": "A clean commercial product photograph."
+      },
+      {
+       "id": "architektur",
+       "name": "Architekturfotografie",
+       "text": "A precise architectural photograph."
+      },
+      {
+       "id": "analog",
+       "name": "Analog Vintage",
+       "text": "A vintage analog photograph."
+      },
+      {
+       "id": "schnappschuss",
+       "name": "Schnappschuss",
+       "text": "A casual snapshot."
+      },
+      {
+       "id": "noir",
+       "name": "Film Noir",
+       "text": "A film noir scene with hard shadows."
+      },
+      {
+       "id": "illustration",
+       "name": "Illustration",
+       "text": "A detailed digital illustration."
+      },
+      {
+       "id": "conceptart",
+       "name": "Concept Art",
+       "text": "A painterly fantasy concept art piece."
+      },
+      {
+       "id": "comic",
+       "name": "Comic",
+       "text": "A comic-book style drawing with bold outlines."
+      },
+      {
+       "id": "anime",
+       "name": "Anime",
+       "text": "An anime-style illustration."
+      },
+      {
+       "id": "ghibli",
+       "name": "Ghibli-artig",
+       "text": "A hand-painted animation style inspired by Studio Ghibli."
+      },
+      {
+       "id": "aquarell",
+       "name": "Aquarell",
+       "text": "A soft watercolor painting."
+      },
+      {
+       "id": "oel",
+       "name": "Ölgemälde",
+       "text": "A classical oil painting with visible brushstrokes."
+      },
+      {
+       "id": "bleistift",
+       "name": "Bleistiftzeichnung",
+       "text": "A detailed pencil drawing."
+      },
+      {
+       "id": "impressionismus",
+       "name": "Impressionismus",
+       "text": "An impressionist painting with loose, visible brushstrokes."
+      },
+      {
+       "id": "renaissance",
+       "name": "Renaissance",
+       "text": "A Renaissance-style painting."
+      },
+      {
+       "id": "ukiyoe",
+       "name": "Ukiyo-e",
+       "text": "A Japanese ukiyo-e woodblock print."
+      },
+      {
+       "id": "popart",
+       "name": "Pop Art",
+       "text": "A bold pop art image."
+      },
+      {
+       "id": "artnouveau",
+       "name": "Art Nouveau",
+       "text": "An Art Nouveau illustration with ornamental lines."
+      },
+      {
+       "id": "surrealismus",
+       "name": "Surrealismus",
+       "text": "A surrealist artwork."
+      },
+      {
+       "id": "3d",
+       "name": "3D-Render",
+       "text": "A polished 3D render."
+      },
+      {
+       "id": "lowpoly",
+       "name": "Low Poly",
+       "text": "A low-poly 3D artwork."
+      },
+      {
+       "id": "claymation",
+       "name": "Knetanimation",
+       "text": "A claymation-style scene."
+      },
+      {
+       "id": "pixel",
+       "name": "Pixel Art",
+       "text": "A retro pixel art image."
+      },
+      {
+       "id": "synthwave",
+       "name": "Synthwave",
+       "text": "A neon synthwave artwork."
+      },
+      {
+       "id": "steampunk",
+       "name": "Steampunk",
+       "text": "A steampunk-style image with brass and gears."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stile",
+   "name": "Stile",
+   "icon": "paintpalette",
+   "groups": [
+    {
+     "key": "stile/epoche",
+     "name": "Kunstepochen",
+     "icon": "building.columns",
+     "multi": false,
+     "options": [
+      {
+       "id": "renaissance",
+       "name": "Renaissance",
+       "text": "a Renaissance painting with balanced composition, sfumato shading and rich oil glazes"
+      },
+      {
+       "id": "barock",
+       "name": "Barock",
+       "text": "a Baroque painting with dramatic chiaroscuro and theatrical light"
+      },
+      {
+       "id": "rokoko",
+       "name": "Rokoko",
+       "text": "a Rococo painting with pastel colors, ornate details and playful elegance"
+      },
+      {
+       "id": "romantik",
+       "name": "Romantik",
+       "text": "a Romantic-era painting with sublime skies and an emotional atmosphere"
+      },
+      {
+       "id": "realismus",
+       "name": "Realismus",
+       "text": "a 19th-century Realist oil painting with honest, earthy detail"
+      },
+      {
+       "id": "impressionismus",
+       "name": "Impressionismus",
+       "text": "an Impressionist painting with loose, visible brushstrokes, dappled sunlight and soft broken color"
+      },
+      {
+       "id": "pointillismus",
+       "name": "Pointillismus",
+       "text": "a Pointillist painting built from countless small dots of pure color"
+      },
+      {
+       "id": "post-impressionismus",
+       "name": "Post-Impressionismus",
+       "text": "a Post-Impressionist painting with bold, swirling brushstrokes and vivid expressive color"
+      },
+      {
+       "id": "expressionismus",
+       "name": "Expressionismus",
+       "text": "an Expressionist painting with distorted forms, raw brushwork and intense emotional color"
+      },
+      {
+       "id": "fauvismus",
+       "name": "Fauvismus",
+       "text": "a Fauvist painting with wild, unnatural flat colors and simplified forms"
+      },
+      {
+       "id": "kubismus",
+       "name": "Kubismus",
+       "text": "a Cubist painting with fragmented geometric planes seen from several viewpoints at once"
+      },
+      {
+       "id": "futurismus",
+       "name": "Futurismus",
+       "text": "a Futurist painting with dynamic lines that convey speed and motion"
+      },
+      {
+       "id": "jugendstil",
+       "name": "Jugendstil",
+       "text": "an Art Nouveau illustration with flowing organic lines, floral ornaments and decorative borders"
+      },
+      {
+       "id": "art-deco",
+       "name": "Art déco",
+       "text": "an Art Deco poster with bold geometry, gold accents and streamlined elegance"
+      },
+      {
+       "id": "bauhaus",
+       "name": "Bauhaus",
+       "text": "a Bauhaus design with primary colors and simple geometric shapes"
+      },
+      {
+       "id": "konstruktivismus",
+       "name": "Konstruktivismus",
+       "text": "a Constructivist poster with diagonal compositions, red and black blocks and bold shapes"
+      },
+      {
+       "id": "surrealismus",
+       "name": "Surrealismus",
+       "text": "a Surrealist painting of a dreamlike, impossible scene rendered in precise detail"
+      },
+      {
+       "id": "abstrakt",
+       "name": "Abstrakter Expressionismus",
+       "text": "an Abstract Expressionist painting with energetic gestural brushstrokes and drips"
+      },
+      {
+       "id": "popart",
+       "name": "Pop Art",
+       "text": "a Pop Art image with bold flat colors, thick outlines and halftone dots"
+      },
+      {
+       "id": "op-art",
+       "name": "Op-Art",
+       "text": "an Op Art composition with optical illusions and high-contrast patterns"
+      },
+      {
+       "id": "minimalismus",
+       "name": "Minimalismus",
+       "text": "a minimalist artwork with few elements, flat color fields and lots of empty space"
+      },
+      {
+       "id": "fotorealismus",
+       "name": "Fotorealismus",
+       "text": "a hyperrealistic painting that looks almost like a photograph"
+      },
+      {
+       "id": "street-art",
+       "name": "Street-Art",
+       "text": "a street art mural with spray-paint textures, stencils and bold graffiti colors"
+      },
+      {
+       "id": "ukiyo-e",
+       "name": "Ukiyo-e",
+       "text": "a Japanese ukiyo-e woodblock print with flat colors and elegant outlines"
+      },
+      {
+       "id": "tuschmalerei",
+       "name": "Chinesische Tuschmalerei",
+       "text": "a traditional Chinese ink wash painting with flowing brushwork and empty space"
+      },
+      {
+       "id": "ikone",
+       "name": "Byzantinische Ikone",
+       "text": "a Byzantine icon with a gold leaf background and flat, stylized figures"
+      }
+     ],
+     "hint": "Wirkt beim Bearbeiten als Stilübertragung",
+     "template": "The image is rendered as {}.",
+     "editTemplate": "Restyle the whole image as {}, keeping the composition, subject and pose unchanged."
+    },
+    {
+     "key": "stile/technik",
+     "name": "Maltechnik & Material",
+     "icon": "paintbrush.pointed",
+     "multi": false,
+     "options": [
+      {
+       "id": "oel",
+       "name": "Ölgemälde",
+       "text": "a classical oil painting with visible brushstrokes on canvas"
+      },
+      {
+       "id": "acryl",
+       "name": "Acryl",
+       "text": "a vibrant acrylic painting"
+      },
+      {
+       "id": "aquarell",
+       "name": "Aquarell",
+       "text": "a soft watercolor painting with flowing washes and paper texture"
+      },
+      {
+       "id": "gouache",
+       "name": "Gouache",
+       "text": "a matte gouache painting with flat, opaque colors"
+      },
+      {
+       "id": "pastell",
+       "name": "Pastellkreide",
+       "text": "a soft pastel drawing with powdery texture"
+      },
+      {
+       "id": "bleistift",
+       "name": "Bleistift",
+       "text": "a detailed graphite pencil drawing"
+      },
+      {
+       "id": "kohle",
+       "name": "Kohlezeichnung",
+       "text": "an expressive charcoal drawing with smudged shadows"
+      },
+      {
+       "id": "buntstift",
+       "name": "Buntstift",
+       "text": "a colored pencil drawing with visible hatching"
+      },
+      {
+       "id": "tusche",
+       "name": "Tuschezeichnung",
+       "text": "a fine ink pen drawing with cross-hatching"
+      },
+      {
+       "id": "holzschnitt",
+       "name": "Holzschnitt",
+       "text": "a woodcut print with bold carved lines"
+      },
+      {
+       "id": "linolschnitt",
+       "name": "Linolschnitt",
+       "text": "a linocut print with strong black-and-white contrast"
+      },
+      {
+       "id": "radierung",
+       "name": "Radierung",
+       "text": "a detailed etching with fine engraved lines"
+      },
+      {
+       "id": "siebdruck",
+       "name": "Siebdruck",
+       "text": "a screen print with layered flat colors and slight misregistration"
+      },
+      {
+       "id": "fresko",
+       "name": "Fresko",
+       "text": "a faded fresco painted on plaster"
+      },
+      {
+       "id": "mosaik",
+       "name": "Mosaik",
+       "text": "a mosaic made of small colored tiles"
+      },
+      {
+       "id": "buntglas",
+       "name": "Buntglas",
+       "text": "a stained glass window with bold lead lines and glowing colors"
+      },
+      {
+       "id": "collage",
+       "name": "Collage",
+       "text": "a mixed-media collage of cut paper and photographs"
+      },
+      {
+       "id": "papierschnitt",
+       "name": "Papierschnitt",
+       "text": "a layered paper-cut artwork with soft shadows between the layers"
+      },
+      {
+       "id": "stickerei",
+       "name": "Stickerei",
+       "text": "an embroidery made of colorful stitched threads"
+      },
+      {
+       "id": "marmor",
+       "name": "Marmorskulptur",
+       "text": "a white marble sculpture"
+      },
+      {
+       "id": "bronze",
+       "name": "Bronzeskulptur",
+       "text": "a bronze sculpture with a warm patina"
+      }
+     ],
+     "template": "It is executed as {}.",
+     "editTemplate": "Render it as {}."
+    },
+    {
+     "key": "stile/illustration",
+     "name": "Illustration & Animation",
+     "icon": "pencil.and.outline",
+     "multi": false,
+     "options": [
+      {
+       "id": "anime",
+       "name": "Anime",
+       "text": "an anime-style illustration with clean lines and cel shading"
+      },
+      {
+       "id": "manga",
+       "name": "Manga (S/W)",
+       "text": "a black-and-white manga panel with screentones"
+      },
+      {
+       "id": "ghibli",
+       "name": "Ghibli-artig",
+       "text": "a hand-painted animation still inspired by Studio Ghibli"
+      },
+      {
+       "id": "disney-klassik",
+       "name": "Klassischer Zeichentrick",
+       "text": "a classic hand-drawn 2D animation frame"
+      },
+      {
+       "id": "3d-animation",
+       "name": "3D-Animationsfilm",
+       "text": "a polished 3D animated film still with soft lighting"
+      },
+      {
+       "id": "comic",
+       "name": "Comic",
+       "text": "an American comic book panel with bold inks and flat colors"
+      },
+      {
+       "id": "ligne-claire",
+       "name": "Ligne claire",
+       "text": "a ligne claire comic illustration with clean even outlines"
+      },
+      {
+       "id": "graphic-novel",
+       "name": "Graphic Novel",
+       "text": "a moody graphic novel panel with heavy shadows"
+      },
+      {
+       "id": "cartoon",
+       "name": "Cartoon",
+       "text": "a playful cartoon illustration"
+      },
+      {
+       "id": "kinderbuch",
+       "name": "Kinderbuch",
+       "text": "a warm children's book illustration"
+      },
+      {
+       "id": "concept-art",
+       "name": "Concept Art",
+       "text": "a painterly concept art piece"
+      },
+      {
+       "id": "vektor",
+       "name": "Flat-Vektor",
+       "text": "a flat vector illustration with simple shapes"
+      },
+      {
+       "id": "isometrisch",
+       "name": "Isometrisch",
+       "text": "an isometric illustration"
+      },
+      {
+       "id": "pixel",
+       "name": "Pixel Art",
+       "text": "retro pixel art"
+      },
+      {
+       "id": "lowpoly",
+       "name": "Low Poly",
+       "text": "a low-poly 3D artwork"
+      },
+      {
+       "id": "claymation",
+       "name": "Knetanimation",
+       "text": "a claymation scene with handmade clay textures"
+      },
+      {
+       "id": "papercraft",
+       "name": "Papercraft",
+       "text": "a papercraft diorama"
+      },
+      {
+       "id": "chibi",
+       "name": "Chibi",
+       "text": "a cute chibi-style illustration"
+      },
+      {
+       "id": "lineart",
+       "name": "Line Art",
+       "text": "minimal black line art"
+      },
+      {
+       "id": "tattoo",
+       "name": "Tattoo-Flash",
+       "text": "a traditional tattoo flash design"
+      },
+      {
+       "id": "sticker",
+       "name": "Sticker",
+       "text": "a die-cut sticker design with a white border"
+      }
+     ],
+     "template": "The image is rendered as {}.",
+     "editTemplate": "Restyle the whole image as {}, keeping the composition, subject and pose unchanged."
+    },
+    {
+     "key": "stile/digital",
+     "name": "Digital & Zeitgeist",
+     "icon": "sparkles.tv",
+     "multi": false,
+     "options": [
+      {
+       "id": "synthwave",
+       "name": "Synthwave",
+       "text": "a neon synthwave artwork with a retro grid and sunset gradient"
+      },
+      {
+       "id": "vaporwave",
+       "name": "Vaporwave",
+       "text": "a pastel vaporwave aesthetic with glitchy retro computer graphics"
+      },
+      {
+       "id": "cyberpunk",
+       "name": "Cyberpunk",
+       "text": "a cyberpunk artwork with neon lights and high-tech grit"
+      },
+      {
+       "id": "steampunk",
+       "name": "Steampunk",
+       "text": "a steampunk artwork with brass, gears and Victorian machinery"
+      },
+      {
+       "id": "dieselpunk",
+       "name": "Dieselpunk",
+       "text": "a dieselpunk artwork with heavy industrial machines"
+      },
+      {
+       "id": "solarpunk",
+       "name": "Solarpunk",
+       "text": "a hopeful solarpunk artwork with lush greenery and clean technology"
+      },
+      {
+       "id": "glitch",
+       "name": "Glitch Art",
+       "text": "a glitch art image with pixel sorting and digital distortion"
+      },
+      {
+       "id": "holo",
+       "name": "Holografisch",
+       "text": "an iridescent holographic artwork"
+      },
+      {
+       "id": "neon-noir",
+       "name": "Neon-Noir",
+       "text": "a neon-noir image with deep shadows and saturated neon accents"
+      },
+      {
+       "id": "80er",
+       "name": "Retro 80er",
+       "text": "a retro 1980s airbrush illustration"
+      },
+      {
+       "id": "y2k",
+       "name": "Y2K",
+       "text": "a glossy Y2K aesthetic with chrome and bubble shapes"
+      },
+      {
+       "id": "lofi",
+       "name": "Lo-Fi",
+       "text": "a calm lo-fi illustration with soft muted colors"
+      },
+      {
+       "id": "50er-plakat",
+       "name": "Vintage-Plakat",
+       "text": "a 1950s vintage advertising poster"
+      },
+      {
+       "id": "psychedelisch",
+       "name": "Psychedelisch",
+       "text": "a psychedelic 1960s poster with swirling colors"
+      },
+      {
+       "id": "dark-fantasy",
+       "name": "Dark Fantasy",
+       "text": "a dark fantasy painting with a gothic, ominous mood"
+      },
+      {
+       "id": "tarot",
+       "name": "Tarotkarte",
+       "text": "an ornate tarot card illustration with a decorative frame"
+      },
+      {
+       "id": "blueprint",
+       "name": "Blaupause",
+       "text": "a technical blueprint drawing with white lines on blue"
+      },
+      {
+       "id": "kawaii",
+       "name": "Kawaii",
+       "text": "a cute kawaii illustration with pastel colors"
+      }
+     ],
+     "template": "The image is rendered as {}.",
+     "editTemplate": "Restyle the whole image as {}, keeping the composition, subject and pose unchanged."
+    },
+    {
+     "key": "stile/meister",
+     "name": "Nach alten Meistern",
+     "icon": "person.crop.artframe",
+     "multi": false,
+     "options": [
+      {
+       "id": "vangogh",
+       "name": "Vincent van Gogh",
+       "text": "a painting in the style of Vincent van Gogh, with swirling impasto brushstrokes and vivid blues and yellows"
+      },
+      {
+       "id": "monet",
+       "name": "Claude Monet",
+       "text": "a painting in the style of Claude Monet, with shimmering light and soft broken brushstrokes"
+      },
+      {
+       "id": "cezanne",
+       "name": "Paul Cézanne",
+       "text": "a painting in the style of Paul Cézanne, with structured brushstrokes and solid geometric forms"
+      },
+      {
+       "id": "seurat",
+       "name": "Georges Seurat",
+       "text": "a painting in the style of Georges Seurat, made of tiny dots of color"
+      },
+      {
+       "id": "klimt",
+       "name": "Gustav Klimt",
+       "text": "a painting in the style of Gustav Klimt, with gold leaf and ornamental patterns"
+      },
+      {
+       "id": "schiele",
+       "name": "Egon Schiele",
+       "text": "a drawing in the style of Egon Schiele, with nervous expressive lines"
+      },
+      {
+       "id": "munch",
+       "name": "Edvard Munch",
+       "text": "a painting in the style of Edvard Munch, with wavy lines and anxious color"
+      },
+      {
+       "id": "kandinsky",
+       "name": "Wassily Kandinsky",
+       "text": "an abstract painting in the style of Wassily Kandinsky, with colorful geometric forms"
+      },
+      {
+       "id": "mucha",
+       "name": "Alfons Mucha",
+       "text": "an illustration in the style of Alphonse Mucha, with flowing hair, halos and floral frames"
+      },
+      {
+       "id": "hokusai",
+       "name": "Katsushika Hokusai",
+       "text": "a woodblock print in the style of Katsushika Hokusai"
+      },
+      {
+       "id": "rembrandt",
+       "name": "Rembrandt",
+       "text": "a painting in the style of Rembrandt, with warm golden light emerging from deep shadow"
+      },
+      {
+       "id": "vermeer",
+       "name": "Jan Vermeer",
+       "text": "a painting in the style of Johannes Vermeer, with soft window light and calm domestic stillness"
+      },
+      {
+       "id": "caravaggio",
+       "name": "Caravaggio",
+       "text": "a painting in the style of Caravaggio, with harsh chiaroscuro and dramatic realism"
+      },
+      {
+       "id": "davinci",
+       "name": "Leonardo da Vinci",
+       "text": "a painting in the style of Leonardo da Vinci, with sfumato and subtle gradations"
+      },
+      {
+       "id": "botticelli",
+       "name": "Sandro Botticelli",
+       "text": "a painting in the style of Sandro Botticelli, with graceful figures and delicate lines"
+      },
+      {
+       "id": "bosch",
+       "name": "Hieronymus Bosch",
+       "text": "a painting in the style of Hieronymus Bosch, with fantastical crowded details"
+      },
+      {
+       "id": "turner",
+       "name": "William Turner",
+       "text": "a painting in the style of J. M. W. Turner, with luminous, stormy atmospheric light"
+      }
+     ],
+     "template": "The image is rendered as {}.",
+     "editTemplate": "Restyle the whole image as {}, keeping the composition, subject and pose unchanged."
+    }
+   ]
+  }
+ ],
+ "order": [
+  "stile/epoche",
+  "stile/meister",
+  "stile/illustration",
+  "stile/digital",
+  "stile/technik",
+  "bildkomposition/stil",
+  "kamera/ausschnitt",
+  "motiv/subjekt",
+  "motiv/mimik",
+  "motiv/blick",
+  "motiv/gesicht",
+  "motiv/koerper",
+  "pose/ganzkoerper",
+  "pose/oberkoerper",
+  "pose/haende",
+  "pose/unterkoerper",
+  "kleidung/outfit",
+  "kleidung/oberteil",
+  "kleidung/hose",
+  "kleidung/schuhe",
+  "kleidung/kopf",
+  "kleidung/accessoires",
+  "ort/innen",
+  "ort/stadt",
+  "ort/natur",
+  "ort/fantasie",
+  "ort/wetter",
+  "kamera/winkel",
+  "kamera/objektiv",
+  "kamera/blende",
+  "kamera/verschluss",
+  "kamera/geraet",
+  "kamera/film",
+  "kamera/licht",
+  "bildkomposition/regel",
+  "bildkomposition/position",
+  "bildkomposition/leerraum",
+  "bildkomposition/tiefe",
+  "bildkomposition/verschluss",
+  "bildkomposition/farbe-look",
+  "bildkomposition/stimmung",
+  "bildkomposition/effekte"
+ ],
+ "text": {
+  "groups": [
+   {
+    "id": "font",
+    "name": "Schriftart",
+    "options": [
+     {
+      "id": "sans",
+      "name": "Serifenlos",
+      "text": "clean sans-serif lettering"
+     },
+     {
+      "id": "serif",
+      "name": "Serif",
+      "text": "elegant serif lettering"
+     },
+     {
+      "id": "display",
+      "name": "Fett / Display",
+      "text": "bold, heavy display lettering"
+     },
+     {
+      "id": "hand",
+      "name": "Handschrift",
+      "text": "casual handwritten lettering"
+     },
+     {
+      "id": "script",
+      "name": "Schreibschrift",
+      "text": "flowing script lettering"
+     },
+     {
+      "id": "kalligrafie",
+      "name": "Kalligrafie",
+      "text": "brush calligraphy"
+     },
+     {
+      "id": "typewriter",
+      "name": "Schreibmaschine",
+      "text": "typewriter-style lettering"
+     },
+     {
+      "id": "artdeco",
+      "name": "Art déco",
+      "text": "Art Deco lettering"
+     },
+     {
+      "id": "fraktur",
+      "name": "Fraktur",
+      "text": "blackletter (Fraktur) lettering"
+     },
+     {
+      "id": "pixel",
+      "name": "Pixel",
+      "text": "retro pixel lettering"
+     },
+     {
+      "id": "graffiti",
+      "name": "Graffiti",
+      "text": "graffiti lettering"
+     }
+    ]
+   },
+   {
+    "id": "size",
+    "name": "Größe",
+    "options": [
+     {
+      "id": "xl",
+      "name": "Headline",
+      "text": "very large headline-sized"
+     },
+     {
+      "id": "l",
+      "name": "Groß",
+      "text": "large"
+     },
+     {
+      "id": "m",
+      "name": "Mittel",
+      "text": "medium-sized"
+     },
+     {
+      "id": "s",
+      "name": "Klein",
+      "text": "small, subtle"
+     }
+    ]
+   },
+   {
+    "id": "color",
+    "name": "Farbe",
+    "options": [
+     {
+      "id": "weiss",
+      "name": "Weiß",
+      "text": "white",
+      "swatch": "#ffffff"
+     },
+     {
+      "id": "schwarz",
+      "name": "Schwarz",
+      "text": "black",
+      "swatch": "#1c1a18"
+     },
+     {
+      "id": "rot",
+      "name": "Rot",
+      "text": "red",
+      "swatch": "#d63a2f"
+     },
+     {
+      "id": "orange",
+      "name": "Orange",
+      "text": "orange",
+      "swatch": "#f08a24"
+     },
+     {
+      "id": "gelb",
+      "name": "Gelb",
+      "text": "yellow",
+      "swatch": "#f5cf2f"
+     },
+     {
+      "id": "gruen",
+      "name": "Grün",
+      "text": "green",
+      "swatch": "#3a9a5b"
+     },
+     {
+      "id": "blau",
+      "name": "Blau",
+      "text": "blue",
+      "swatch": "#2f6fd6"
+     },
+     {
+      "id": "gold",
+      "name": "Gold",
+      "text": "gold"
+     },
+     {
+      "id": "silber",
+      "name": "Silber",
+      "text": "silver"
+     },
+     {
+      "id": "neonpink",
+      "name": "Neonpink",
+      "text": "neon pink",
+      "swatch": "#ff3fa4"
+     }
+    ]
+   },
+   {
+    "id": "effect",
+    "name": "Effekt",
+    "options": [
+     {
+      "id": "shadow",
+      "name": "Schlagschatten",
+      "text": "with a soft drop shadow"
+     },
+     {
+      "id": "outline",
+      "name": "Kontur",
+      "text": "with a thin contrasting outline"
+     },
+     {
+      "id": "neon",
+      "name": "Neonleuchten",
+      "text": "glowing like neon tubes"
+     },
+     {
+      "id": "3d",
+      "name": "3D",
+      "text": "as extruded 3D letters"
+     },
+     {
+      "id": "metal",
+      "name": "Metallisch",
+      "text": "with a shiny metallic finish"
+     },
+     {
+      "id": "gradient",
+      "name": "Farbverlauf",
+      "text": "with a smooth color gradient"
+     },
+     {
+      "id": "emboss",
+      "name": "Geprägt",
+      "text": "embossed into the surface"
+     }
+    ]
+   },
+   {
+    "id": "layout",
+    "name": "Ausrichtung",
+    "options": [
+     {
+      "id": "horizontal",
+      "name": "Horizontal",
+      "text": "set in a single horizontal line"
+     },
+     {
+      "id": "mehrzeilig",
+      "name": "Mehrzeilig",
+      "text": "set in several centered lines"
+     },
+     {
+      "id": "bogen",
+      "name": "Bogen",
+      "text": "curved along an arc"
+     },
+     {
+      "id": "vertikal",
+      "name": "Vertikal",
+      "text": "written vertically from top to bottom"
+     },
+     {
+      "id": "diagonal",
+      "name": "Diagonal",
+      "text": "running diagonally"
+     }
+    ]
+   },
+   {
+    "id": "surface",
+    "name": "Träger",
+    "options": [
+     {
+      "id": "overlay",
+      "name": "Overlay",
+      "text": "as a clean graphic overlay"
+     },
+     {
+      "id": "schild",
+      "name": "Schild",
+      "text": "on a sign"
+     },
+     {
+      "id": "plakat",
+      "name": "Plakat",
+      "text": "on a poster"
+     },
+     {
+      "id": "kleidung",
+      "name": "Kleidung",
+      "text": "printed on the subject's clothing"
+     },
+     {
+      "id": "neonschild",
+      "name": "Neonschild",
+      "text": "on a neon sign"
+     },
+     {
+      "id": "tafel",
+      "name": "Kreidetafel",
+      "text": "on a chalkboard"
+     },
+     {
+      "id": "wand",
+      "name": "Wand",
+      "text": "painted on a wall"
+     },
+     {
+      "id": "verpackung",
+      "name": "Verpackung",
+      "text": "on product packaging"
+     }
+    ]
+   }
+  ],
+  "positions": [
+   {
+    "id": "tl",
+    "name": "Oben links",
+    "text": "in the top-left corner"
+   },
+   {
+    "id": "tc",
+    "name": "Oben Mitte",
+    "text": "at the top center"
+   },
+   {
+    "id": "tr",
+    "name": "Oben rechts",
+    "text": "in the top-right corner"
+   },
+   {
+    "id": "ml",
+    "name": "Mitte links",
+    "text": "on the left side, vertically centered"
+   },
+   {
+    "id": "mc",
+    "name": "Mitte",
+    "text": "in the center"
+   },
+   {
+    "id": "mr",
+    "name": "Mitte rechts",
+    "text": "on the right side, vertically centered"
+   },
+   {
+    "id": "bl",
+    "name": "Unten links",
+    "text": "in the bottom-left corner"
+   },
+   {
+    "id": "bc",
+    "name": "Unten Mitte",
+    "text": "at the bottom center"
+   },
+   {
+    "id": "br",
+    "name": "Unten rechts",
+    "text": "in the bottom-right corner"
+   }
+  ]
+ }
+}
