@@ -621,6 +621,7 @@ struct GalleryViewer: View {
         Divider()
         Button("Exportieren …", systemImage: "square.and.arrow.up") { studio.export(item) }
         Button("Im Finder zeigen", systemImage: "folder") { studio.revealInFinder([item]) }
+        OpenInAppButton(urls: [item.url])
         if item.stackID != nil, !isSourceItem(item) {
             Divider()
             Button("Aus dem Stapel lösen", systemImage: "square.stack.3d.down.right") {

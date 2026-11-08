@@ -388,6 +388,7 @@ private struct SeriesTileView: View {
                     if let url = item.fileURL { NSWorkspace.shared.activateFileViewerSelecting([url]) }
                 }
                 .disabled(item.fileURL == nil)
+                OpenInAppButton(urls: item.fileURL.map { [$0] } ?? [])
             }
         }
     }

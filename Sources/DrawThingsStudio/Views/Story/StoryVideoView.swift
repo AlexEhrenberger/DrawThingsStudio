@@ -447,6 +447,7 @@ private struct FrameThumb: View {
             .contextMenu {
                 Button("Bild kopieren", systemImage: "doc.on.doc") { studio.copyStoryImage(item) }
                 Button("Im Finder zeigen", systemImage: "folder") { studio.revealInFinder([item]) }
+                OpenInAppButton(urls: [item.url])
             }
             .help("\(caption)bild – in Gemini oder Flow im Browser ziehen, oder Rechtsklick › Bild kopieren")
     }

@@ -508,6 +508,7 @@ private struct StoryCellMenu: View {
         Button("Bild kopieren", systemImage: "doc.on.doc") { studio.copyStoryImage(item) }
         Button("Im Studio bearbeiten", systemImage: "paintbrush.pointed") { studio.openInStudio(item, mode: .edit) }
         Button("Im Finder zeigen", systemImage: "folder") { studio.revealInFinder(targets.compactMap { gallery.item($0) }) }
+        OpenInAppButton(urls: targets.compactMap { gallery.item($0)?.url })
         Divider()
         Button(targets.count == 1 ? "Aus der Story nehmen" : "\(targets.count) Bilder aus der Story nehmen", systemImage: "minus.circle") {
             withAnimation(.smooth(duration: 0.25)) { gallery.removeFromStory(storyID, itemIDs: targets) }

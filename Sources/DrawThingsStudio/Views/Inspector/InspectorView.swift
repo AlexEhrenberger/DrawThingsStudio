@@ -306,6 +306,7 @@ private struct VersionTile: View {
             Button("Exportieren …", systemImage: "square.and.arrow.up") { studio.exportWithPanel(version) }
             Button("Im Finder zeigen", systemImage: "folder") { studio.revealInFinder(version) }
                 .disabled(version.fileURL == nil)
+            OpenInAppButton(urls: version.fileURL.map { [$0] } ?? [])
             Divider()
             Button("Aus dem Verlauf entfernen", systemImage: "trash", role: .destructive) { studio.delete(version) }
         }

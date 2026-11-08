@@ -631,6 +631,7 @@ struct GalleryEntryMenu: View {
             Button("Exportieren …", systemImage: "square.and.arrow.up") { studio.export(item) }
         }
         Button("Im Finder zeigen", systemImage: "folder") { studio.revealInFinder(targetItems) }
+        OpenInAppButton(urls: targetItems.map(\.url))
         Divider()
         Button(targetItems.count == 1 ? "In den Papierkorb legen …" : "\(targetItems.count) Bilder in den Papierkorb legen …", systemImage: "trash", role: .destructive) {
             gallery.trashRequest = targets

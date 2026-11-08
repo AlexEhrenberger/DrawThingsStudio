@@ -356,6 +356,7 @@ struct AssetMenu: View {
         Button("Neu beschreiben (Gemma)", systemImage: "sparkles") { studio.describeAssets([asset.id]) }
             .disabled(store.describing.contains(asset.id))
         Button("Im Finder zeigen", systemImage: "folder") { studio.revealAsset(asset) }
+        OpenInAppButton(urls: [AssetStore.url(for: asset)])
         if let onDelete {
             Divider()
             Button("Asset löschen …", systemImage: "trash", role: .destructive, action: onDelete)
